@@ -1,6 +1,5 @@
 import './App.css';
-import 'react-bootstrap'
-import Carousel from './carousel';
+import {CarouselPhotos} from './carousel';
 function App() {
   return (
     <div className="App">
@@ -10,6 +9,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
        <h1>Emily and Abby</h1>
+       <CarouselPhotos/>
       </header>
     </div>
   );
