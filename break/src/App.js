@@ -1,5 +1,8 @@
 import './App.css';
-import {CarouselPhotos} from './carousel';
+import { CarouselPhotos } from './carousel';
+import { CardsForBlogs } from './cards';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <div className="App">
@@ -8,11 +11,13 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-       <h1>Emily and Abby</h1>
-       <CarouselPhotos/>
+        <h1>Emily and Abby</h1>
+        <CarouselPhotos />
+        <CardsForBlogs />
       </header>
     </div>
   );
 }
-
 export default App;
+
+
