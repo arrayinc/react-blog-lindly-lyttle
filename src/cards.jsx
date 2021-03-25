@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { CardGroup, Card } from "react-bootstrap";
-import BlogPhotoOne from "./workbreak.jpg";
-import BlogPhotoTwo from "./homebreak.jpg";
-import BlogPhotoThree from "./playbreak.jpg";
+import BlogPhotoOne from "./images/homepage/workbreak.jpg";
+import BlogPhotoTwo from "./images/homepage/homebreak.jpg";
+import BlogPhotoThree from "./images/homepage/playbreak.jpg";
 import { Link } from "react-router-dom";
 
 export class CardsForBlogs extends Component {
@@ -41,9 +41,11 @@ export class CardsForBlogs extends Component {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <button>
-              <small className="home-break-btn">Pause Home</small>
-            </button>
+            <Link to="/homebreak">
+              <button>
+                <small className="home-break-btn">Pause Home</small>
+              </button>
+            </Link>
           </Card.Footer>
         </Card>
         <Card>
@@ -63,9 +65,11 @@ export class CardsForBlogs extends Component {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <button>
-              <small className="play-break-btn">Let's Play</small>
-            </button>
+            <Link to="/playbreak">
+              <button>
+                <small className="play-break-btn">Let's Play</small>
+              </button>
+            </Link>
           </Card.Footer>
         </Card>
       </CardGroup>
