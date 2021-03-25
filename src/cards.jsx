@@ -3,6 +3,7 @@ import { CardGroup, Card } from "react-bootstrap";
 import BlogPhotoOne from "./workbreak.jpg";
 import BlogPhotoTwo from "./homebreak.jpg";
 import BlogPhotoThree from "./playbreak.jpg";
+import { Link } from "react-router-dom";
 
 export class CardsForBlogs extends Component {
   render() {
@@ -21,9 +22,11 @@ export class CardsForBlogs extends Component {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <button href="./workbreakpage">
-              <small className="work-break-btn">Pause Work</small>
-            </button>
+            <Link to="/workbreak">
+              <button>
+                <small className="work-break-btn">Pause Work</small>
+              </button>
+            </Link>
           </Card.Footer>
         </Card>
         <Card>
