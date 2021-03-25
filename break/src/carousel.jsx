@@ -3,10 +3,13 @@ import  Carousel from 'react-bootstrap/Carousel';
 import  PhotoOne  from './Calm1.jpg';
 import PhotoTwo from './Calm2.jpg';
 import PhotoThree from './Calm3.jpg'
+
+
 export class CarouselPhotos extends Component {
   render() {
     return (
       <div>
+
       <Carousel>
         <Carousel.Item>
           <img 
@@ -45,6 +48,7 @@ export class CarouselPhotos extends Component {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+
       </div>
     );
   }
