@@ -3,12 +3,13 @@ import SiteNavbar from './navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 /* Imported Site Pages */
-// import About from './aboutpage';
-import HomePage from './homepage';
-import AboutPage from './aboutpage';
-import ContactPage from './contactpage';
+import HomePage from './pages/HomePage';
 
-import WorkBreak from './workbreakpage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+import WorkBreak from './pages/WorkBreakPage';
+import HomeBreak from './pages/HomeBreakPage';
+import PlayBreak from './pages/PlayBreakPage';
 
 import { Switch, Route } from 'react-router-dom';
 
@@ -26,6 +27,8 @@ function App() {
           <Route path="/about" component={AboutPage} />
           <Route path="/contact" component={ContactPage} />
           <Route path="/workbreak" component={WorkBreak} />
+          <Route path="/homebreak" component={HomeBreak} />
+          <Route path="/playbreak" component={PlayBreak} />
         </Switch>
 
       </header>
