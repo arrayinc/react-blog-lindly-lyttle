@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { CardGroup, Card } from "react-bootstrap";
-import BlogPhotoOne from "./images/homepage/workbreak.jpg";
-import BlogPhotoTwo from "./images/homepage/homebreak.jpg";
-import BlogPhotoThree from "./images/homepage/playbreak.jpg";
+import BlogPhotoOne from "../images/homepage/workbreak.jpg";
+import BlogPhotoTwo from "../images/homepage/homebreak.jpg";
+import BlogPhotoThree from "../images/homepage/playbreak.jpg";
 import { Link } from "react-router-dom";
 
 export class CardsForBlogs extends Component {
