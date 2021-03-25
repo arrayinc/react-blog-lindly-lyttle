@@ -1,16 +1,18 @@
 import React, { Component } from "react";
 import { CardGroup, Card } from "react-bootstrap";
-import BlogPhotoOne from "./forest.jpg";
+import BlogPhotoOne from "./workbreak.jpg";
+import BlogPhotoTwo from "./homebreak.jpg";
+import BlogPhotoThree from "./playbreak.jpg";
 
 export class CardsForBlogs extends Component {
   render() {
     return (
       <CardGroup className="cards-for-blogs">
         <Card>
-          <Card.Img variant="top" src={BlogPhotoOne} />
+          <Card.Img variant="top" src={BlogPhotoOne} className="blog-photos" />
           <Card.Body>
             <Card.Title>
-              <small className="text-muted">Hello World</small>
+              <small className="text-muted">Work BREAK</small>
             </Card.Title>
             <Card.Text>
               This is a wider card with supporting text below as a natural
@@ -19,14 +21,16 @@ export class CardsForBlogs extends Component {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">work BREAK</small>
+            <button href="./workbreakpage">
+              <small className="work-break-btn">Pause Work</small>
+            </button>
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top" src={BlogPhotoTwo} className="blog-photos" />
           <Card.Body>
             <Card.Title>
-              <small className="text-muted">Hello World</small>
+              <small className="text-muted">Home BREAK</small>
             </Card.Title>
             <Card.Text>
               This card has supporting text below as a natural lead-in to
@@ -34,14 +38,20 @@ export class CardsForBlogs extends Component {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">home BREAK</small>
+            <button>
+              <small className="home-break-btn">Pause Home</small>
+            </button>
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src={BlogPhotoThree}
+            className="blog-photos"
+          />
           <Card.Body>
             <Card.Title>
-              <small className="text-muted">Hello World</small>
+              <small className="text-muted">Play BREAK</small>
             </Card.Title>
             <Card.Text>
               This is a wider card with supporting text below as a natural
@@ -50,7 +60,9 @@ export class CardsForBlogs extends Component {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">play BREAK</small>
+            <button>
+              <small className="play-break-btn">Let's Play</small>
+            </button>
           </Card.Footer>
         </Card>
       </CardGroup>
