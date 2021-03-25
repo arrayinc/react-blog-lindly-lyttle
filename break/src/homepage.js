@@ -1,12 +1,13 @@
 import React from 'react';
+import { CarouselPhotos } from './carousel';
+import { CardsForBlogs } from './cards';
 
 function HomePage() {
   return (
-    <>
-    <div>
-    <h1>Home Page</h1>
-    </div>
-    </>
+      <div>
+        <CarouselPhotos />
+        <CardsForBlogs />
+      </div>
   );
 }
 export default HomePage;

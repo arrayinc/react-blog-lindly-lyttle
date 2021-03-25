@@ -1,7 +1,5 @@
 import './App.css';
-import { CarouselPhotos } from './carousel';
 import SiteNavbar from './navbar';
-import { CardsForBlogs } from './cards';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 /* Imported Site Pages */
@@ -23,8 +21,6 @@ function App() {
           <h1>Break</h1>
           <h2>when life could use a pause btn</h2>
         </div>
-        <CarouselPhotos />
-        <CardsForBlogs />
         <Switch>
           <Route path="/" component={HomePage} exact />
           <Route path="/about" component={AboutPage} />
