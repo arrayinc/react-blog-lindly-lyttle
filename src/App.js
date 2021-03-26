@@ -10,7 +10,7 @@ import ContactPage from './pages/ContactPage';
 import WorkBreak from './pages/WorkBreakPage';
 import HomeBreak from './pages/HomeBreakPage';
 import PlayBreak from './pages/PlayBreakPage';
-
+import { PauseCircle } from 'react-bootstrap-icons'
 import { Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <header className="App-header">
         <SiteNavbar />
         <div className="blog-title">
-          <h1>Break</h1>
+          <h1>Break<PauseCircle /></h1>
           <h2>when life could use a pause btn</h2>
         </div>
         <Switch>
