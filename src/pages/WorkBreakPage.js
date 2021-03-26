@@ -9,7 +9,6 @@ function WorkBreak() {
       <div>
         <h1>Work Break Blog Title</h1>
         <Image src={WorkBreakPhoto} fluid />
-        <h1>WorkBreakPage</h1>
         <Link to="/">Let's go OM</Link>
       </div>
     </>
