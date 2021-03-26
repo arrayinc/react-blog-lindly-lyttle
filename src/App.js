@@ -1,5 +1,5 @@
 import './App.css';
-import SiteNavbar from './navbar';
+import SiteNavbar from './components/navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 /* Imported Site Pages */

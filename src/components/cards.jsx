@@ -76,3 +76,4 @@ export class CardsForBlogs extends Component {
     );
   }
 }
+export default CardsForBlogs;

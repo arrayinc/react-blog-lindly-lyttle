@@ -7,30 +7,31 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
-import { PauseCircle } from 'react-bootstrap-icons';
+import { PauseCircle } from "react-bootstrap-icons";
 
 export class SiteNavbar extends Component {
   render() {
     return (
       <div>
         <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="#home">Break<PauseCircle /> </Navbar.Brand>
+          <Navbar.Brand href="#home">
+            Break
+            <PauseCircle />{" "}
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
               <NavDropdown title="Blog" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Blog 1</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Blog 2
+                <NavDropdown.Item href="/workbreak">
+                  Work BREAK
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Blog 3
+                <NavDropdown.Item href="/homebreak">
+                  Home BREAK
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
+                <NavDropdown.Item href="/playbreak">
+                  Play BREAK
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
