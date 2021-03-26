@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Blog Pages */
+/* Work Break Blog Page */
+.img-fluid {
+  width: 30%;
+  margin-left: 20%;
+}
+/* Home Break Blog Page */
+/* Play Break Blog Page */
+/************************************************************************/
+
+#basic-navbar-nav {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/* Contact Page */
+.contact-form-title {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 10%;
+}
+.form-group {
+  margin-top: 2%;
+  width: 60%;
+  padding-left: 40%;
+}
+
+.btn-outline-secondary {
+  margin-left: 48%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+.form-control {
+  margin-top: 1%;
+}
+
+.text-area {
+  width: 20em;
+}
+/************************************************************************/

@@ -1,12 +1,5 @@
 import React, { Component } from "react";
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Form } from "react-bootstrap";
 import { PauseCircle } from "react-bootstrap-icons";
 
 export class SiteNavbar extends Component {
@@ -16,7 +9,8 @@ export class SiteNavbar extends Component {
         <Navbar bg="light" expand="lg">
           <Navbar.Brand href="#home">
             Break
-            <PauseCircle />{" "}
+            <PauseCircle />
+            {"  "}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -34,15 +28,9 @@ export class SiteNavbar extends Component {
                   Play BREAK
                 </NavDropdown.Item>
               </NavDropdown>
+              <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
-            <Form inline>
-              <FormControl
-                type="text"
-                placeholder="Search"
-                className="mr-sm-2"
-              />
-              <Button variant="outline-success">Search</Button>
-            </Form>
+            <Form inline></Form>
           </Navbar.Collapse>
         </Navbar>
       </div>

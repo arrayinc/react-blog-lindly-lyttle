@@ -6,11 +6,12 @@ import { Image } from "react-bootstrap";
 function PlayBreak() {
   return (
     <>
-    <div>
-    <Image src={PlayBreakPhoto} fluid />
-    <h1>Play Break Page</h1>
-    <Link to="/">Let's go OM</Link>
-    </div>
+      <div>
+        <h1>Play Break Blog Title</h1>
+        <Image src={PlayBreakPhoto} fluid />
+        <h1>Play Break Page</h1>
+        <Link to="/">Let's go OM</Link>
+      </div>
     </>
   );
 }
