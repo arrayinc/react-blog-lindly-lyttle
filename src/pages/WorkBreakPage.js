@@ -8,13 +8,10 @@ import { Facebook, Twitter, Instagram } from "react-bootstrap-icons";
 function WorkBreak() {
   return (
     <>
-      <div>
-        <JumbotronForBlogs />
-      </div>
+      <JumbotronForBlogs />
       <h1>Work Break Blog Title</h1>
       <h6>Authored By: | 3 min read | <Facebook /> {"  "} <Twitter /> {"  "} <Instagram /> {"  "} </h6>
       <div className="blog-container"> </div>
-      {/* <Image src={WorkBreakPhoto} fluid /> */}
       <div>
         <Card border="primary" style={{ width: '18rem' }}>
           <Card.Header>Header</Card.Header>
