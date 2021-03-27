@@ -13,13 +13,27 @@ code {
 }
 
 /* Blog Pages */
-/* Work Break Blog Page */
 .img-fluid {
   width: 30%;
   margin-left: 20%;
 }
-/* Home Break Blog Page */
-/* Play Break Blog Page */
+
+h1 {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.blog-container {
+  width: 500px;
+  height: 500px;
+  border: 1px black solid;
+  margin-left: 33%;
+  margin-top: 2%;
+}
 /************************************************************************/
 
 .nav-title {
