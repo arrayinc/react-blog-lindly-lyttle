@@ -12,15 +12,18 @@ code {
     monospace;
 }
 
+/* ALL Pages */
+#basic-navbar-nav {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+/************************************************************************/
+
 /* Blog Pages */
-/* Work Break Blog Page */
 .img-fluid {
   width: 30%;
   margin-left: 20%;
 }
-/* Home Break Blog Page */
-/* Play Break Blog Page */
-/************************************************************************/
 
 .nav-title {
   color: rgba(0, 0, 0, 0.5);
@@ -38,6 +41,24 @@ code {
 .nav-right-text {
   color: rgba(0, 0, 0, 0.5);
 }
+
+/* h1 {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.blog-container {
+  width: 500px;
+  height: 500px;
+  border: 1px black solid;
+  margin-left: 33%;
+  margin-top: 2%;
+} */
+/************************************************************************/
 
 /* Contact Page */
 .contact-form-title {
