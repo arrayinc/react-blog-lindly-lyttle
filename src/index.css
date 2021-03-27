@@ -25,7 +25,24 @@ code {
   margin-left: 20%;
 }
 
-h1 {
+.nav-title {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#basic-navbar-nav {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.navbar-right {
+  margin-right: 2%;
+}
+
+.nav-right-text {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* h1 {
   text-align: center;
 }
 
@@ -40,7 +57,7 @@ h6 {
   border: 1px black solid;
   margin-left: 33%;
   margin-top: 2%;
-}
+} */
 /************************************************************************/
 
 /* Contact Page */
