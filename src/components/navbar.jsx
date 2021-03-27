@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavDropdown, Form } from "react-bootstrap";
-import { PauseCircle } from "react-bootstrap-icons";
+import { PauseCircle, PersonCircle } from "react-bootstrap-icons";
 
 export class SiteNavbar extends Component {
   render() {
     return (
       <div>
         <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="#home">
-            Break
+          <Navbar.Brand className="nav-title" href="/">
+            Break &nbsp;
             <PauseCircle />
-            {"  "}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -28,10 +27,23 @@ export class SiteNavbar extends Component {
                   Play BREAK
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
             <Form inline></Form>
           </Navbar.Collapse>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a className="nav-right-text" href="/contact">
+                Contact &nbsp; &nbsp;
+              </a>
+            </li>
+            <br />
+            <li>
+              <a className="nav-right-text" href="#">
+                <PersonCircle />
+                &nbsp;Login
+              </a>
+            </li>
+          </ul>
         </Navbar>
       </div>
     );
