@@ -3,14 +3,15 @@ import React from 'react';
 // import { Image } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { JumbotronForBlogs } from '../components/JumbotronBlogPages';
-import { Facebook, Twitter, Instagram } from "react-bootstrap-icons";
+import { Facebook, Twitter, Instagram, FilePersonFill } from "react-bootstrap-icons";
 
 function WorkBreak() {
   return (
     <>
       <JumbotronForBlogs />
       <h1>Work Break Blog Title</h1>
-      <h6>Authored By: | 3 min read | <Facebook /> {"  "} <Twitter /> {"  "} <Instagram /> {"  "} </h6>
+      <br />
+      <h6>Authored By Billy Bob <FilePersonFill /> <br /><br /> 3 min read | <Facebook /> <Twitter /> <Instagram /> </h6>
       <div className="blog-container"> </div>
       <div>
         <Card border="primary" style={{ width: '18rem' }}>

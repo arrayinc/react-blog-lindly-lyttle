@@ -17,6 +17,18 @@ code {
   margin-top: 1%;
   margin-bottom: 1%;
 }
+
+.navbar-main-text {
+  color: black;
+}
+
+.navbar-right {
+  margin-right: 2%;
+}
+
+.nav-right-text {
+  color: black;
+}
 /************************************************************************/
 
 /* Blog Pages */
@@ -41,41 +53,6 @@ h6 {
   margin-left: 33%;
   margin-top: 2%;
 }
-/************************************************************************/
-
-.nav-title {
-  color: black;
-}
-
-#basic-navbar-nav {
-  margin-top: 1.5%;
-  margin-bottom: 1.5%;
-}
-
-.navbar-right {
-  margin-right: 2%;
-}
-
-.nav-right-text {
-  color: black;
-}
-
-/* h1 {
-  text-align: center;
-}
-
-h6 {
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.blog-container {
-  width: 500px;
-  height: 500px;
-  border: 1px black solid;
-  margin-left: 33%;
-  margin-top: 2%;
-} */
 /************************************************************************/
 
 /* Contact Page */
@@ -104,8 +81,23 @@ h6 {
   width: 20em;
 }
 /************************************************************************/
+
+/* HomePage */
 /* Carousel */
 .carousel-caption {
   color: blue;
-
 }
+
+.card-icons {
+  align-self: center;
+  margin-top: 10%;
+  font-size: 5em;
+  color: grey;
+}
+
+.text-muted {
+  align-content: center;
+}
+
+/************************************************************************/
+
