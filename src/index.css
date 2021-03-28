@@ -44,12 +44,12 @@ h6 {
 /************************************************************************/
 
 .nav-title {
-  color: rgba(0, 0, 0, 0.5);
+  color: black;
 }
 
 #basic-navbar-nav {
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
 }
 
 .navbar-right {
@@ -57,7 +57,7 @@ h6 {
 }
 
 .nav-right-text {
-  color: rgba(0, 0, 0, 0.5);
+  color: black;
 }
 
 /* h1 {
