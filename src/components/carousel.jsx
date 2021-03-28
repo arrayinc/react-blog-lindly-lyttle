@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import PhotoOne from "../images/carousel/Calm1.jpg";
-import PhotoTwo from "../images/carousel/Calm2.jpg";
-import PhotoThree from "../images/carousel/Calm3.jpg";
+import PhotoOne from "../images/carousel/Pink.jpeg";
+import PhotoTwo from "../images/carousel/Blue.jpeg";
+import PhotoThree from "../images/carousel/Orange.jpeg";
 
 export class CarouselPhotos extends Component {
   render() {
@@ -12,7 +12,7 @@ export class CarouselPhotos extends Component {
           <Carousel.Item>
             <img className="d-block w-100" src={PhotoOne} alt="First slide" />
             <Carousel.Caption>
-              <h3>Mindfulness</h3>
+              <h3> style={{color: "blue"}}Mindfulness</h3>
               <p></p>
             </Carousel.Caption>
           </Carousel.Item>

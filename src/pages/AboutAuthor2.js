@@ -10,7 +10,7 @@ function AboutAuthor2() {
     return (
 
     <Row>
-      <Col xs={6} md={4}>
+      
         <Image src={PhotoTwo} ref={target} onClick={() => setShow(!show)} roundedCircle fluid />
         <Overlay target={target.current} show={show} placement="bottom">
           {({ placement, arrowProps, show: _show, popper, ...props }) => (
@@ -28,7 +28,7 @@ function AboutAuthor2() {
             </div>
           )}
           </Overlay>
-    </Col>
+   
   </Row>
     )}
     export default AboutAuthor2;
