@@ -12,7 +12,7 @@ export class CarouselPhotos extends Component {
           <Carousel.Item>
             <img className="d-block w-100" src={PhotoOne} alt="First slide" />
             <Carousel.Caption>
-              <h3> style={{color: "blue"}}Mindfulness</h3>
+              <h3>Mindfulness</h3>
               <p></p>
             </Carousel.Caption>
           </Carousel.Item>
