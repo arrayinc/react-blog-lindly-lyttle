@@ -13,16 +13,16 @@ export class CardsForBlogs extends Component {
   render() {
     return (
       <CardGroup>
-        <Card>
+        <Card className="card-fade">
           <CalendarEvent className="card-icons" />
           <Card.Body>
             <Card.Title>
               <large className="text-muted">Work BREAK</large>
             </Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
+            <Card.Text className="text-section">
+              {/* This is a wider card with supporting text below as a natural
               lead-in to additional content. This content is a little bit
-              longer.
+              longer. */}
             </Card.Text>
           </Card.Body>
           {/* <Card.Footer> */}
@@ -41,8 +41,8 @@ export class CardsForBlogs extends Component {
               <large className="text-muted">Home BREAK</large>
             </Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.
+              {/* This card has supporting text below as a natural lead-in to
+              additional content. */}
             </Card.Text>
           </Card.Body>
           {/* <Card.Footer> */}
@@ -60,9 +60,9 @@ export class CardsForBlogs extends Component {
               <large className="text-muted">Play BREAK</large>
             </Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
+              {/* This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              than the first to show that equal height action. */}
             </Card.Text>
           </Card.Body>
           {/* <Card.Footer> */}

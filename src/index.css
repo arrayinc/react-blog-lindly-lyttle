@@ -93,6 +93,14 @@ h6 {
 .text-area {
   width: 20em;
 }
+
+.contact-text-muted {
+  text-align: center;
+}
+
+.contact-modal {
+  margin-right: 50%;
+}
 /************************************************************************/
 
 /* HomePage */
@@ -123,4 +131,33 @@ h6 {
   margin-bottom: 10%;
 }
 
+.card-fade {
+  opacity: 1;
+  transition: opacity 4s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.text-section {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-section:hover .photo-fade {
+  opacity: 0.3;
+  transition: opacity 3s;
+}
+
+.text-section:hover .middle {
+  opacity: 1;
+}
 /************************************************************************/
