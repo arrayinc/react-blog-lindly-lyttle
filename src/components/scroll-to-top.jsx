@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ChevronDoubleUp } from "react-bootstrap-icons";
 
-export default function ScrollToTop() {
+function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
@@ -29,10 +29,11 @@ export default function ScrollToTop() {
     >
       {isVisible && (
         <div onClick={scrollToTop}>
-          <ChevronDoubleUp alt="Go to top" />
-          <b>Back To Top</b>
+          <ChevronDoubleUp />&nbsp;
+          <b>To Top</b>
         </div>
       )}
     </div>
   );
 }
+export default ScrollToTop;
