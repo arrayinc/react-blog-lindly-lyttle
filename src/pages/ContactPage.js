@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
-import { Form, Button } from "react-bootstrap";
+import { Form } from "react-bootstrap";
+import { Envelope } from "react-bootstrap-icons";
+import ContactModal from "../components/contact-form-modal";
 
 export class ContactForm extends Component {
   render() {
     return (
       <div>
         <Form>
-          <h1 className="contact-form-title">Send us a message</h1>
+          <h1 className="contact-form-title">We'd love to hear from you <Envelope /></h1>
           <Form.Group controlId="formBasicEmail">
             <Form.Control type="name" placeholder="Enter name" />
             <br />
             <Form.Control type="email" placeholder="Enter email" />
-            <Form.Text className="text-muted">
+            <Form.Text className="contact-text-muted">
               We'll never share your email with anyone else.
     </Form.Text>
             <br />
             <Form.Control type="message" placeholder="Your message" as="textarea" rows={3} />
           </Form.Group>
-          <Button variant="outline-secondary" type="submit">
-            Send
-  </Button>
+          <ContactModal className="contact-modal" />
         </Form>
       </div>
     );

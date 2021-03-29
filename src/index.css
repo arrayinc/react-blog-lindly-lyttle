@@ -17,39 +17,9 @@ code {
   margin-top: 1%;
   margin-bottom: 1%;
 }
-/************************************************************************/
 
-/* Blog Pages */
-.img-fluid {
-  width: 30%;
-  margin-left: 20%;
-}
-
-h1 {
-  text-align: center;
-}
-
-h6 {
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.blog-container {
-  width: 500px;
-  height: 500px;
-  border: 1px black solid;
-  margin-left: 33%;
-  margin-top: 2%;
-}
-/************************************************************************/
-
-.nav-title {
+.navbar-main-text {
   color: black;
-}
-
-#basic-navbar-nav {
-  margin-top: 1.5%;
-  margin-bottom: 1.5%;
 }
 
 .navbar-right {
@@ -60,22 +30,62 @@ h6 {
   color: black;
 }
 
-/* h1 {
+.footer {
+  position: sticky;
+  margin-top: 2%;
+}
+
+.scroll-to-top {
+  font-size: .75em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  margin-left: 92%;
+  margin-bottom: 2%;
+}
+
+.footer-navbar-main-text {
+  margin-left: 85%;
+  position: sticky;
+  font-size: 1.5em;
+}
+
+/************************************************************************/
+
+/* Blog Pages */
+.img-fluid {
+  width: 30%;
+  margin-left: 20%;
+}
+
+h1 {
   text-align: center;
+  /* padding-top: 5%; */
 }
 
 h6 {
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.blog-container {
-  width: 500px;
+.blog-author {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.work-break-photo {
   height: 500px;
-  border: 1px black solid;
-  margin-left: 33%;
+  margin-left: 25%;
   margin-top: 2%;
-} */
+}
+
+.blog-page-alert {
+  margin-top: 2%;
+  opacity: 50%;
+}
+
+.cards-in-blogs {
+  display: inline-block;
+}
 /************************************************************************/
 
 /* Contact Page */
@@ -102,5 +112,72 @@ h6 {
 
 .text-area {
   width: 20em;
+}
+
+.contact-text-muted {
+  text-align: center;
+}
+
+.contact-modal {
+  margin-right: 50%;
+}
+/************************************************************************/
+
+/* HomePage */
+/* Carousel */
+.carousel-caption {
+  color: blue;
+}
+
+.card-icons {
+  align-self: center;
+  margin-top: 10%;
+  font-size: 5em;
+  color: grey;
+}
+
+.text-muted {
+  margin-left: 35%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.break-btn {
+  margin-left: 45%;
+  margin-bottom: 10%;
+}
+
+.card-fade {
+  opacity: 1;
+  transition: opacity 4s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.text-section {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-section:hover .photo-fade {
+  opacity: 0.3;
+  transition: opacity 3s;
+}
+
+.text-section:hover .middle {
+  opacity: 1;
 }
 /************************************************************************/

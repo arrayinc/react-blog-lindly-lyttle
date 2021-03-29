@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavDropdown, Form } from "react-bootstrap";
 import { PauseCircle, PersonCircle } from "react-bootstrap-icons";
-import ScrollToTop from '../components/scroll-to-top';
 
 export class SiteNavbar extends Component {
   render() {
@@ -14,7 +13,7 @@ export class SiteNavbar extends Component {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="navbar-main-text">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
               <NavDropdown title="Blog" id="basic-nav-dropdown">
@@ -45,7 +44,6 @@ export class SiteNavbar extends Component {
               </a>
             </li>
           </ul>
-          <ScrollToTop />
         </Navbar>
       </div>
     );

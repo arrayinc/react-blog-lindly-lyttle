@@ -1,76 +1,77 @@
 import React, { Component } from "react";
-import { CardGroup, Card } from "react-bootstrap";
-import BlogPhotoOne from "../images/homepage/workbreak.jpg";
-import BlogPhotoTwo from "../images/homepage/homebreak.jpg";
-import BlogPhotoThree from "../images/homepage/playbreak.jpg";
+import { CardGroup, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import {
+  PauseFill,
+  PlayFill,
+  CalendarEvent,
+  House,
+  CloudMinus
+} from "react-bootstrap-icons";
 
 export class CardsForBlogs extends Component {
   render() {
     return (
-      <CardGroup className="cards-for-blogs">
-        <Card>
-          <Card.Img variant="top" src={BlogPhotoOne} className="blog-photos" />
+      <CardGroup>
+        <Card className="card-fade">
+          <CalendarEvent className="card-icons" />
           <Card.Body>
             <Card.Title>
-              <small className="text-muted">Work BREAK</small>
+              <large className="text-muted">Work BREAK</large>
             </Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
+            <Card.Text className="text-section">
+              {/* This is a wider card with supporting text below as a natural
               lead-in to additional content. This content is a little bit
-              longer.
+              longer. */}
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
+          {/* <Card.Footer> */}
             <Link to="/workbreak">
-              <button>
-                <small className="work-break-btn">Pause Work</small>
-              </button>
+              <Button variant="outline-primary" className="break-btn">
+                <PauseFill />
+              </Button>
             </Link>
-          </Card.Footer>
+          {/* </Card.Footer> */}
         </Card>
+        <br />
         <Card>
-          <Card.Img variant="top" src={BlogPhotoTwo} className="blog-photos" />
+          <House className="card-icons" />
           <Card.Body>
             <Card.Title>
-              <small className="text-muted">Home BREAK</small>
+              <large className="text-muted">Home BREAK</large>
             </Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              {/* This card has supporting text below as a natural lead-in to
+              additional content. */}
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
+          {/* <Card.Footer> */}
             <Link to="/homebreak">
-              <button>
-                <small className="home-break-btn">Pause Home</small>
-              </button>
+              <Button variant="outline-danger" className="break-btn">
+                <PauseFill />
+              </Button>
             </Link>
-          </Card.Footer>
+          {/* </Card.Footer> */}
         </Card>
         <Card>
-          <Card.Img
-            variant="top"
-            src={BlogPhotoThree}
-            className="blog-photos"
-          />
+          <CloudMinus className="card-icons" />
           <Card.Body>
             <Card.Title>
-              <small className="text-muted">Play BREAK</small>
+              <large className="text-muted">Play BREAK</large>
             </Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
+              {/* This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              than the first to show that equal height action. */}
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
+          {/* <Card.Footer> */}
             <Link to="/playbreak">
-              <button>
-                <small className="play-break-btn">Let's Play</small>
-              </button>
+              <Button variant="outline-warning" className="break-btn">
+                <PlayFill />
+              </Button>
             </Link>
-          </Card.Footer>
+          {/* </Card.Footer> */}
         </Card>
       </CardGroup>
     );
