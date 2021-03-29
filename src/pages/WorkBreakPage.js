@@ -15,50 +15,38 @@ function WorkBreak() {
       <br /><h6><Calendar /> Sun Mar 28, 2021</h6><h6> 3 min read | <Facebook /> <Twitter /> <Instagram /></h6>
       <img className="work-break-photo" src={BackgroundPhoto} alt="First slide" />
       <div>
-        <Card className="cards-in-blogs" border="primary" style={{ width: '18rem' }}>
-          <Card.Header>Header</Card.Header>
-          <Card.Body>
-            <Card.Title>Primary Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk
-              of the card's content.
-      </Card.Text>
-          </Card.Body>
-        </Card>
-        <br />
-        <Card className="cards-in-blogs" border="secondary" style={{ width: '18rem' }}>
-          <Card.Header>Header</Card.Header>
-          <Card.Body>
-            <Card.Title>Secondary Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk
-              of the card's content.
-      </Card.Text>
-          </Card.Body>
-        </Card>
-        <br />
-        <Card className="cards-in-blogs" border="success" style={{ width: '18rem' }}>
-          <Card.Header>Header</Card.Header>
-          <Card.Body>
-            <Card.Title>Success Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk
-              of the card's content.
-      </Card.Text>
-          </Card.Body>
-        </Card>
-        <br />
-        <Card className="cards-in-blogs" border="info" style={{ width: '18rem' }}>
-          <Card.Header>Header</Card.Header>
-          <Card.Body>
-            <Card.Title>Info Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk
-              of the card's content.
-      </Card.Text>
-          </Card.Body>
-        </Card>
-        <br />
+        <div class="card-columns">
+          <div class="card bg-primary">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the first card</p>
+            </div>
+          </div>
+          <div class="card bg-warning">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the second card</p>
+            </div>
+          </div>
+          <div class="card bg-success">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the third card</p>
+            </div>
+          </div>
+          <div class="card bg-danger">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the fourth card</p>
+            </div>
+          </div>
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the fifth card</p>
+            </div>
+          </div>
+          <div class="card bg-info">
+            <div class="card-body text-center">
+              <p class="card-text">Some text inside the sixth card</p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
