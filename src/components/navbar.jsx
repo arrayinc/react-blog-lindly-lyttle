@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavDropdown, Form } from "react-bootstrap";
 import { PauseCircle, PersonCircle } from "react-bootstrap-icons";
-import ScrollToTop from '../components/scroll-to-top';
 
 export class SiteNavbar extends Component {
   render() {
@@ -45,7 +44,6 @@ export class SiteNavbar extends Component {
               </a>
             </li>
           </ul>
-          <ScrollToTop />
         </Navbar>
       </div>
     );
