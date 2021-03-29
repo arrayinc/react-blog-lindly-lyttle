@@ -39,19 +39,32 @@ code {
 
 h1 {
   text-align: center;
+  /* padding-top: 5%; */
 }
 
 h6 {
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.blog-container {
-  width: 500px;
+.blog-author {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.work-break-photo {
   height: 500px;
-  border: 1px black solid;
-  margin-left: 33%;
+  margin-left: 25%;
   margin-top: 2%;
+}
+
+.blog-page-alert {
+  margin-top: 2%;
+  opacity: 50%;
+}
+
+.cards-in-blogs {
+  display: inline-block;
 }
 /************************************************************************/
 
@@ -96,8 +109,18 @@ h6 {
 }
 
 .text-muted {
-  align-content: center;
+  margin-left: 35%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.break-btn {
+  margin-left: 45%;
+  margin-bottom: 10%;
 }
 
 /************************************************************************/
-

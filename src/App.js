@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 /* Imported Site Pages */
 import HomePage from './pages/HomePage';
-
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import WorkBreak from './pages/WorkBreakPage';

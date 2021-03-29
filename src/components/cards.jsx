@@ -12,7 +12,7 @@ import {
 export class CardsForBlogs extends Component {
   render() {
     return (
-      <CardGroup className="cards-for-blogs">
+      <CardGroup>
         <Card>
           <CalendarEvent className="card-icons" />
           <Card.Body>
@@ -33,6 +33,7 @@ export class CardsForBlogs extends Component {
             </Link>
           {/* </Card.Footer> */}
         </Card>
+        <br />
         <Card>
           <House className="card-icons" />
           <Card.Body>
