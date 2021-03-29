@@ -9,7 +9,7 @@ import ContactPage from './pages/ContactPage';
 import WorkBreak from './pages/WorkBreakPage';
 import HomeBreak from './pages/HomeBreakPage';
 import PlayBreak from './pages/PlayBreakPage';
-// import { PauseCircle } from 'react-bootstrap-icons';
+import AuthorInfo from './pages/AuthorInfo' ;
 import { Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -23,11 +23,14 @@ function App() {
         </div>
         <Switch>
           <Route path="/" component={HomePage} exact />
-          <Route path="/about" component={AboutPage} />
+          {/* <Route path="/about" component={AboutPage} /> */}
           <Route path="/contact" component={ContactPage} />
           <Route path="/workbreak" component={WorkBreak} />
           <Route path="/homebreak" component={HomeBreak} />
           <Route path="/playbreak" component={PlayBreak} />
+          <Route path="/about" render={(props) => (
+            <AboutPage AuthorInfo={AuthorInfo} {...props}/>
+          )} />
         </Switch>
       </header>
       <div className="footer">
