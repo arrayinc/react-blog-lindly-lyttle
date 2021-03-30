@@ -9,9 +9,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import WorkBreak from './pages/WorkBreakPage';
+import WorkBreak from './pages/WorkBreakHomePage';
 import HomeBreak from './pages/HomeBreakPage';
 import PlayBreak from './pages/PlayBreakPage';
+
+import WBMorningRitual from './pages/WorkBreakMorningRitual';
 
 import AuthorInfo from './pages/AuthorInfo' ;
 
@@ -31,6 +33,7 @@ function App() {
           <Route path="/workbreak" component={WorkBreak} />
           <Route path="/homebreak" component={HomeBreak} />
           <Route path="/playbreak" component={PlayBreak} />
+          <Route path="/workbreakmorningritual" component={WBMorningRitual} />
           <Route path="/about" render={(props) => (
             <AboutPage AuthorInfo={AuthorInfo} {...props}/>
           )} />
