@@ -1,6 +1,6 @@
 import emily from '../images/about/EmilyHeadshot.png'
-import abby from '../images/about/Abby.jpeg'
-import molly from '../images/about/Molly.jpeg'
+import abby from '../images/about/Abby3.jpeg'
+import molly from '../images/about/Molly1.jpeg'
 const AuthorInfo = [
 {
     name: "Emily Lindly",

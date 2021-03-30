@@ -251,3 +251,38 @@ code {
   margin-right: 50%;
 }
 /************************************************************************/
+
+
+/* HomePage */
+/* Carousel */
+.carousel-caption {
+  color: blue;
+}
+
+.card-icons {
+  align-self: center;
+  margin-top: 10%;
+  font-size: 5em;
+  color: grey;
+}
+
+.text-muted {
+  margin-left: 35%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.author {
+  text-align: center;
+height: 200px;
+width: 150px;
+}
+.author-name {
+  text-align: center;
+}
+/************************************************************************/
+
