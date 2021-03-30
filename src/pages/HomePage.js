@@ -9,8 +9,8 @@ function HomePage() {
     <div>
       <h1 className="homepage-title">When Life Could Use a <PauseFill /> Button</h1>
       <h5 className="homepage-subtitle">breaks to enhance well-being where you work, live, and play</h5>
-      <HomepageCards />
       <CarouselPhotos />
+      <HomepageCards />
     </div>
   );
 }

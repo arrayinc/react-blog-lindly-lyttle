@@ -72,6 +72,7 @@ code {
   text-align: center;
   padding-top: 3%;
   padding-bottom: 1%;
+ 
 }
 
 .homepage-subtitle {
@@ -79,6 +80,7 @@ code {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.1em;
   padding-bottom: 7%;
+ 
 }
 
 /* Carousel */
@@ -86,7 +88,8 @@ code {
   width: 55%;
   height: 50%;
   margin-left: 22.25%;
-  margin-top: 3%;
+  margin-top: -25%;
+  z-index: -1;
 }
 
 /* Homepage Cards */
