@@ -3,9 +3,12 @@ import { Alert } from "react-bootstrap";
 import { PauseFill, Sun } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
 
-function WorkBreak() {
+function WorkBreak(props) {
   return (
     <>
+        <h1>{props.BlogPageInfo[0].title}</h1>
+        <h1>{props.BlogPageInfo[1].title}</h1>
+        <h1>{props.BlogPageInfo[2].title}</h1>
       <Alert className="blog-page-alert" variant='secondary'>
         Work BREAK&nbsp; |&nbsp;&nbsp;<Link to="/WorkBreakMorningRitual">Morning Ritual</Link>&nbsp;&nbsp;&nbsp;&nbsp;Meditation&nbsp;&nbsp;&nbsp;&nbsp;Affirmations&nbsp;&nbsp;&nbsp;&nbsp;Journaling&nbsp;&nbsp;&nbsp;&nbsp;Healthy recipes&nbsp;&nbsp;&nbsp;&nbsp;Well-being at work
   </Alert>
