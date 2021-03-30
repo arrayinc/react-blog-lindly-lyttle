@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import { Form } from "react-bootstrap";
 import { Envelope } from "react-bootstrap-icons";
 import ContactModal from "../components/contact-form-modal";
-
+// import Background from "../images/carousel/Blue.jpeg"
 export class ContactForm extends Component {
   render() {
     return (
       <div>
+        {/* <div style={{ backgroundImage: `url(${Background})` }}></div> */}
         <Form>
           <h1 className="contact-form-title">We'd love to hear from you <Envelope /></h1>
           <Form.Group controlId="formBasicEmail">

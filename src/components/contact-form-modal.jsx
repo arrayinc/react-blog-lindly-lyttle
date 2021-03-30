@@ -9,6 +9,7 @@ function ContactModal() {
   const handleShow = () => setShow(true);
 
   return (
+  
     <>
       <Button variant="outline-secondary" onClick={() => handleShow()}>
         Send
