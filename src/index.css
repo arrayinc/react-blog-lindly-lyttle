@@ -218,6 +218,11 @@ code {
 /************************************************************************/
 
 /* Contact Page */
+.contact-background {
+  background-image: url("images/carousel/Blue.jpeg");
+  background-size: cover;
+  margin-top: -10%;
+}
 .contact-form-title {
   text-align: center;
   font-size: 2em;
@@ -255,10 +260,6 @@ code {
 
 /* HomePage */
 /* Carousel */
-.carousel-caption {
-  color: blue;
-}
-
 .card-icons {
   align-self: center;
   margin-top: 10%;
@@ -277,11 +278,21 @@ code {
 }
 
 .author {
-  text-align: center;
-height: 200px;
-width: 150px;
+  border: 5px solid black;
+  width: auto;
+  align-content: center;
 }
 .author-name {
+  text-align:  center;
+}
+.about-container {
+  
+}
+.author-text {
+  box-sizing: border-box;
+  width: 50%;
+  border: 5px solid black;
+  box-align: center;
   text-align: center;
 }
 /************************************************************************/
