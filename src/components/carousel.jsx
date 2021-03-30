@@ -8,11 +8,11 @@ export class CarouselPhotos extends Component {
   render() {
     return (
       <div>
-        <Carousel>
+        <Carousel className="carousel">
           <Carousel.Item>
             <img className="d-block w-100" src={PhotoOne} alt="First slide" />
-            <Carousel.Caption>
-              <h3>Mindfulness</h3>
+            <Carousel.Caption className="carousel-caption">
+              <h6>I can accomplish hard things.</h6>
               <p></p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -20,7 +20,7 @@ export class CarouselPhotos extends Component {
             <img className="d-block w-100" src={PhotoTwo} alt="Second slide" />
 
             <Carousel.Caption>
-              <h3>Meditation</h3>
+              <h6>Every day is a new chance to get it right.</h6>
               <p></p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -28,7 +28,7 @@ export class CarouselPhotos extends Component {
             <img className="d-block w-100" src={PhotoThree} alt="Third slide" />
 
             <Carousel.Caption>
-              <h3>Grounding</h3>
+              <h6>I am grounded in the here and now.</h6>
               <p></p>
             </Carousel.Caption>
           </Carousel.Item>

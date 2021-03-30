@@ -32,7 +32,7 @@ code {
 
 .footer {
   position: sticky;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 .scroll-to-top {
@@ -67,77 +67,155 @@ code {
 }
 /************************************************************************/
 
-/* Blog Pages */
-.img-fluid {
-  width: 30%;
-  margin-left: 20%;
-}
-
-h1 {
+/* HomePage */
+.homepage-title {
   text-align: center;
-  /* padding-top: 5%; */
+  padding-top: 3%;
+  padding-bottom: 1%;
 }
 
-h6 {
+.homepage-subtitle {
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1em;
+  padding-bottom: 7%;
 }
 
-.blog-author {
-  text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+/* Carousel */
+.carousel {
+  width: 55%;
+  height: 50%;
+  margin-left: 22.25%;
+  margin-top: 3%;
 }
 
-.work-break-photo {
-  height: 500px;
-  margin-left: 25%;
-  margin-top: 2%;
-}
-
-.blog-page-alert {
-  margin-top: 2%;
-  opacity: 50%;
+/* Homepage Cards */
+.card-deck {
+  width: 90%;
+  padding-left: 20%;
+  padding-right: 8%;
+  padding-bottom: 3%;
 }
 
 .card-columns {
   width: 50%;
   height: 500px;
-  margin-left: 26%;
+  margin-left: 23%;
+  margin-top: 4%;
+}
+
+.card-icons {
+  color: white;
+  font-size: 5em;
+  margin-top: 7%;
 }
 
 .card-body {
   height: 200px;
 }
 
-h1 {
-  text-align: center;
-  /* padding-top: 5%; */
+.work-card-body {
+  background-image: url("./images/WorkBreakPage/workbreakblog2.jpg");
+  background-size: cover;
 }
 
-h6 {
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
+.home-card-body {
+  background-image: url("./images/HomeBreakPage/homebreakblogcard.jpg");
+  background-size: cover;
 }
 
-.blog-author {
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.play-card-body {
+  background-image: url("./images/PlayBreakPage/playbreakblogcard.jpg");
+  background-size: cover;
 }
 
-.work-break-photo {
+.work-card-footer {
+  color: orange;
+}
+
+.home-card-footer {
+  color: green;
+}
+
+.play-card-footer {
+  color: rgb(0, 68, 255);
+}
+/************************************************************************/
+
+/* ALL Blog Home Pages */
+/* Animated Choose a Break Text */
+.rainbow {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5%;
+}
+.rainbow_text_animated {
+  background: linear-gradient(to right, #2b2eff, #00ff0d , #eeb808, #d82929, #368cbe);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 7s ease-out;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,100% {
+      background-position: 0 0;
+  }
+
+  50% {
+      background-position: 100% 0;
+  }
+}
+/************************************************************************/
+
+/* Work Break Home Page */
+.workbreak-morning-ritual-photo {
   height: 500px;
   margin-left: 25%;
   margin-top: 2%;
 }
+/************************************************************************/
 
+/* ALL Blog Pages */
 .blog-page-alert {
-  margin-top: 2%;
+  margin-top: -3.5%;
   opacity: 50%;
 }
 
-.cards-in-blogs {
-  display: inline-block;
+.blog-title {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 7%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.blog-author {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -1%;
+} 
+
+.blog-date-time-socials {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+} 
+
+.blog-text {
+  margin-top: 2%;
+  text-align: center;
+}
+/************************************************************************/
+
+/* About Page */
+.author {
+  height: 200px;
+  width: 150px;
+  }
+/************************************************************************/
 
 /* Contact Page */
 .contact-form-title {
@@ -174,6 +252,7 @@ h6 {
 }
 /************************************************************************/
 
+
 /* HomePage */
 /* Carousel */
 .carousel-caption {
@@ -206,3 +285,4 @@ width: 150px;
   text-align: center;
 }
 /************************************************************************/
+
