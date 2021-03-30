@@ -67,43 +67,41 @@ code {
 }
 /************************************************************************/
 
-/* Blog Pages */
-/* Blog Home Pages */
-.workbreak-home-title {
-  margin-top: 4%;
-}
-
-.work-break-photo {
-  height: 500px;
-  margin-left: 25%;
-  margin-top: 2%;
-}
-
-.img-fluid {
-  width: 30%;
-  margin-left: 20%;
-}
-
-h6 {
+/* HomePage */
+.homepage-title {
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  padding-top: 3%;
+  padding-bottom: 1%;
 }
 
-.blog-author {
+.homepage-subtitle {
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1em;
+  padding-bottom: 7%;
 }
 
-.blog-page-alert {
-  margin-top: 2%;
-  opacity: 50%;
+/* Carousel */
+.carousel {
+  width: 55%;
+  height: 50%;
+  margin-left: 22.25%;
+  margin-top: 3%;
+}
+
+/* Homepage Cards */
+.card-deck {
+  width: 90%;
+  padding-left: 20%;
+  padding-right: 8%;
+  padding-bottom: 3%;
 }
 
 .card-columns {
   width: 50%;
   height: 500px;
-  margin-left: 26%;
-  margin-top: 5%;
+  margin-left: 23%;
+  margin-top: 4%;
 }
 
 .card-icons {
@@ -126,6 +124,11 @@ h6 {
   background-size: cover;
 }
 
+.play-card-body {
+  background-image: url("./images/PlayBreakPage/playbreakblogcard.jpg");
+  background-size: cover;
+}
+
 .work-card-footer {
   color: orange;
 }
@@ -137,50 +140,82 @@ h6 {
 .play-card-footer {
   color: rgb(0, 68, 255);
 }
+/************************************************************************/
 
-.play-card-body {
-  background-image: url("./images/PlayBreakPage/playbreakblogcard.jpg");
-  background-size: cover;
-}
-
-h1 {
+/* ALL Blog Home Pages */
+/* Animated Choose a Break Text */
+.rainbow {
   text-align: center;
-  /* padding-top: 5%; */
+  text-decoration: underline;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5%;
+}
+.rainbow_text_animated {
+  background: linear-gradient(to right, #2b2eff, #00ff0d , #eeb808, #d82929, #368cbe);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 7s ease-out;
+  background-size: 400% 100%;
 }
 
-h6 {
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  margin-top: -10%;
-}
+@keyframes rainbow_animation {
+  0%,100% {
+      background-position: 0 0;
+  }
 
-.work-break-photo {
+  50% {
+      background-position: 100% 0;
+  }
+}
+/************************************************************************/
+
+/* Work Break Home Page */
+.workbreak-morning-ritual-photo {
   height: 500px;
   margin-left: 25%;
   margin-top: 2%;
 }
+/************************************************************************/
 
+/* ALL Blog Pages */
 .blog-page-alert {
-  margin-top: 2%;
+  margin-top: -3.5%;
   opacity: 50%;
 }
 
 .blog-title {
   text-align: center;
   font-size: 2em;
-  margin-top: 5%;
+  margin-top: 7%;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .blog-author {
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -1%;
+} 
+
+.blog-date-time-socials {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+} 
 
 .blog-text {
   margin-top: 2%;
   text-align: center;
 }
+/************************************************************************/
+
+/* About Page */
+.author {
+  height: 200px;
+  width: 150px;
+  }
+/************************************************************************/
 
 /* Contact Page */
 .contact-form-title {
@@ -214,49 +249,5 @@ h6 {
 
 .contact-modal {
   margin-right: 50%;
-}
-/************************************************************************/
-
-/* HomePage */
-/* Carousel */
-.carousel {
-  width: 55%;
-  height: 50%;
-  margin-left: 22.25%;
-  margin-top: 3%;
-}
-
-.homepage-title {
-  text-align: center;
-  padding-top: 3%;
-  padding-bottom: 1%;
-}
-
-h5 {
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 2em;
-  padding-bottom: 7%;
-}
-
-h6 {
-  color: black;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.card-deck {
-  width: 90%;
-  padding-left: 20%;
-  padding-right: 8%;
-  padding-bottom: 3%;
-}
-
-.author {
-height: 200px;
-width: 150px;
-}
-
-.homepage-card-title {
-  color: #A9A9A9;
 }
 /************************************************************************/
