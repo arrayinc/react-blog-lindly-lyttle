@@ -32,7 +32,7 @@ code {
 
 .footer {
   position: sticky;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 .scroll-to-top {
@@ -68,6 +68,17 @@ code {
 /************************************************************************/
 
 /* Blog Pages */
+/* Blog Home Pages */
+.workbreak-home-title {
+  margin-top: 4%;
+}
+
+.work-break-photo {
+  height: 500px;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+
 .img-fluid {
   width: 30%;
   margin-left: 20%;
@@ -81,12 +92,6 @@ h6 {
 .blog-author {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.work-break-photo {
-  height: 500px;
-  margin-left: 25%;
-  margin-top: 2%;
 }
 
 .blog-page-alert {
@@ -109,6 +114,33 @@ h6 {
 
 .card-body {
   height: 200px;
+}
+
+.work-card-body {
+  background-image: url("./images/WorkBreakPage/workbreakblog2.jpg");
+  background-size: cover;
+}
+
+.home-card-body {
+  background-image: url("./images/HomeBreakPage/homebreakblogcard.jpg");
+  background-size: cover;
+}
+
+.work-card-footer {
+  color: orange;
+}
+
+.home-card-footer {
+  color: green;
+}
+
+.play-card-footer {
+  color: rgb(0, 68, 255);
+}
+
+.play-card-body {
+  background-image: url("./images/PlayBreakPage/playbreakblogcard.jpg");
+  background-size: cover;
 }
 
 h1 {
@@ -188,14 +220,15 @@ h6 {
 /* HomePage */
 /* Carousel */
 .carousel {
-  margin-top: 5%;
-  margin-left: 25%;
-  width: 50%;
-
+  width: 55%;
+  height: 50%;
+  margin-left: 22.25%;
+  margin-top: 3%;
 }
-h1 {
+
+.homepage-title {
   text-align: center;
-  padding-top: 7%;
+  padding-top: 3%;
   padding-bottom: 1%;
 }
 
@@ -221,5 +254,9 @@ h6 {
 .author {
 height: 200px;
 width: 150px;
+}
+
+.homepage-card-title {
+  color: #A9A9A9;
 }
 /************************************************************************/

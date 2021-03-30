@@ -7,11 +7,10 @@ import { PauseFill } from "react-bootstrap-icons";
 function HomePage() {
   return (
     <div>
-      <h1>When Life Could Use a <PauseFill /> Button</h1>
+      <h1 className="homepage-title">When Life Could Use a <PauseFill /> Button</h1>
       <h5>breaks to enhance well-being where you work, live, and play</h5>
       <HomepageCards />
       <CarouselPhotos />
-
     </div>
   );
 }

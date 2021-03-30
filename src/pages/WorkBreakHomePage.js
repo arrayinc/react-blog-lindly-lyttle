@@ -1,6 +1,5 @@
 import React from 'react';
-import { Badge, Alert } from "react-bootstrap";
-import BackgroundPhoto from "../images/WorkBreakPage/workbreakblog2.jpg";
+import { Alert } from "react-bootstrap";
 import { PauseFill, Sun } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
 
@@ -10,7 +9,7 @@ function WorkBreak() {
       <Alert className="blog-page-alert" variant='secondary'>
         Work BREAK&nbsp; |&nbsp;&nbsp;<Link to="/WorkBreakMorningRitual">Morning Ritual</Link>&nbsp;&nbsp;&nbsp;&nbsp;Meditation&nbsp;&nbsp;&nbsp;&nbsp;Affirmations&nbsp;&nbsp;&nbsp;&nbsp;Journaling&nbsp;&nbsp;&nbsp;&nbsp;Healthy recipes&nbsp;&nbsp;&nbsp;&nbsp;Well-being at work
   </Alert>
-      <h1>Choose Your Work Break <PauseFill /></h1>
+      <h1 className="workbreak-home-title">Choose a Work Break <PauseFill /></h1>
       <div>
         <div class="card-columns">
           <div class="card bg-primary">
