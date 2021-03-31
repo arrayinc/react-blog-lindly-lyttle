@@ -5,13 +5,13 @@ import { Row, Col,  Button, Container  } from 'react-bootstrap';
 // import { Facebook, Twitter, Instagram, FilePersonFill, Calendar } from "react-bootstrap-icons";
 // import { Link } from "react-router-dom";
 
-export default function HomeBreakPage(props) {
-  const [blogClicked, setBlogClicked] = useState(3);
+export default function WorkBreakPage(props) {
+  const [blogClicked, setBlogClicked] = useState();
 
   // useEffect(() =>{
-  //   document.querySelectorAll('.blog-button')[3].style.height = '';
-  //   document.querySelectorAll('.blog-button')[4].style.height = '';
-  //   document.querySelectorAll('.blog-button')[5].style.height = '';
+  //   document.querySelectorAll('.blog-button')[0].style.height = '';
+  //   document.querySelectorAll('.blog-button')[1].style.height = '';
+  //   document.querySelectorAll('.blog-button')[2].style.height = '';
   //   // document.querySelectorAll('.blog-button')[blogClicked].style.height ='300px' ;
   // });
 
@@ -21,13 +21,13 @@ export default function HomeBreakPage(props) {
     <Container className="blog-container">
     <Row>
       <Col> 
-      <Button className="blog-button" src={props.BlogPageInfo[3].title}  onClick={() => setBlogClicked(3)}/>
+      <Button className="blog-button" src={props.BlogPageInfo[0].title}  onClick={() => setBlogClicked(0)}/>
       </Col>
       <Col >
-      <Button className="blog-button" src={props.BlogPageInfo[4].title}  onClick={() => setBlogClicked(4)}/>
+      <Button className="blog-button" src={props.BlogPageInfo[1].title}  onClick={() => setBlogClicked(1)}/>
       </Col>
       <Col >
-      <Button className="blog-button" src={props.BlogPageInfo[5].title}  onClick={() => setBlogClicked(5)}/>
+      <Button className="blog-button" src={props.BlogPageInfo[2].title}  onClick={() => setBlogClicked(2)}/>
       </Col>
     </Row>
   

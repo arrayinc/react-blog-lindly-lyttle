@@ -213,11 +213,7 @@ code {
 }
 /************************************************************************/
 
-/* About Page */
-.author {
-  height: 200px;
-  width: 150px;
-  }
+
 /************************************************************************/
 
 /* Contact Page */
@@ -279,7 +275,7 @@ code {
   flex-direction: row;
   flex: 1;
 }
-
+/* About Page */
 .author {
   border: 5px solid black;
   width: auto;
@@ -288,9 +284,7 @@ code {
 .author-name {
   text-align:  center;
 }
-.about-container {
-  
-}
+
 .author-text {
   box-sizing: border-box;
   width: 50%;

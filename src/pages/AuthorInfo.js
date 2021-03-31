@@ -1,20 +1,20 @@
-import emily from '../images/about/EmilyHeadshot.png'
+import emily from '../images/about/EmilyHeadshot.jpeg'
 import abby from '../images/about/Abby4.jpeg'
 import molly from '../images/about/Molly4.jpeg'
 const AuthorInfo = [
 {
     name: "Emily Lindly",
-    image: emily,
+    photo: emily,
     about: "Boss Bitch"
 },
 {
     name: "Abby Lyttle",
-    image: abby,
+    photo: abby,
     about: "Second Boss Bitch"
 },
 {
     name: "Molly Rose",
-    image: molly,
+    photo: molly,
     about: "Third Boss Bitch"
 }  
 ]
