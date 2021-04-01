@@ -10,9 +10,15 @@ export default function HomeBreakPage(props) {
         <Navbar className="blogpage-nav" bg="light" variant="light">
           <Navbar.Brand className="blogpage-nav-title" href="#home">Play Break</Navbar.Brand>
           <Nav className="mr-auto">
+work-break-styling
           <Nav.Link onClick={() => setBlogClicked(6)}>Morning Ritual</Nav.Link>
             <Nav.Link onClick={() => setBlogClicked(7)}>Meditation</Nav.Link>
             <Nav.Link onClick={() => setBlogClicked(8)}>Movement</Nav.Link>
+
+            <Nav.Link>Art Therapy</Nav.Link>
+            <Nav.Link href="/workbreak/blogs">Meditation</Nav.Link>
+            <Nav.Link href="/workbreak/blogs">Creation</Nav.Link>
+ main
           </Nav>
         </Navbar>
       </div>
@@ -42,9 +48,14 @@ export default function HomeBreakPage(props) {
           <p className="blog-intro-text">{props.BlogPageInfo[blogClicked].introtext}</p>
           <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockone}</p>
           <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblocktwo}</p>
-          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblocktwo}</p>
           <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockthree}</p>
-          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockthree}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockfour}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockfive}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblocktwo}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblocksix}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockseven}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockeight}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblocknine}</p>
         </Container>
       </Row>
     </>

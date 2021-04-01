@@ -435,10 +435,17 @@ code {
   flex: 1;
 }
 /* About Page */
-.author {
-  border: 5px solid black;
+.about-container {
+  
   width: auto;
   align-content: center;
+}
+
+.author {
+  height: 200px;
+  width: auto;
+  align-content: center;
+  hover:
 }
 .author-name {
   text-align: center;

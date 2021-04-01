@@ -4,7 +4,7 @@ import Ocean from '../images/WorkBreakPage/blogpages/ocean.jpg';
 import AbbyPhoto from '../images/WorkBreakPage/blogpages/ocean.jpg';
 import MollyPhoto from '../images/about/Molly4.jpeg';
 import EmilyPhoto from '../images/about/EmilyHeadshot.jpeg';
-
+import ArtTherapy from '../images/PlayBreakPage/arttherapy.jpeg'
 
 const BlogPageInfo = [
     {
@@ -88,13 +88,24 @@ const BlogPageInfo = [
     },
     {
 
-        title: "Visualization",
-        subtitle: "Both an Art and a Science.",
-        author: "Molly ",
-        authoravator: EmilyPhoto,
+        title: "Art Therapy",
+        subtitle: "Your brain on art.",
+        author: "Abby ",
+        authoravator: AbbyPhoto,
         date: "31 March 2021 | 6 min read ",
-        image: " ",
-        content: "Blog 7 Content Here",
+        image: ArtTherapy,
+        introtext: "When we engage in the creation of our own art forms, we receive big benefits to our minds, both physically and mentally. When we produce art with our own hands, there is increased neural connectivity in the area of the brain that deals with introspection, memory, and self-monitoring. This means that this area is more active when engaged in producing art. Mentally, we become more psychologically resilient, we have increased positive perspectives, and become more self-aware. This helps us to cope with future problems, stressors, or events. It is said that the pairing of actually creating the art (motor processing) and thinking about expression (cognitive processing) is what makes art therapy so beneficial.",
+        contentblockone: "Emotions",
+        headerblocktwo: "Paint or draw your emotions.Here, you want to think about how you are feeling and put that feeling into paper, however you see it.",
+        headerblockthree: "Create an emotion wheel. You’ll want to use lots of color for this activity! Label each emotion with a color that fits for you.",
+        headerblockfour: "Design a postcard that you will never send. This activity helps with releasing anger in a way that never has to be presented to someone else.",
+        headerblockfive: "Coloring books for emotions.You can buy, or print, certain coloring pages that were created to release emotions.",
+        contentblocktwo: "Happiness",
+        headerblocksix: "Make a collage related to a quote that speaks to you. Turn words that mean a lot to you and turn it into a visual that is inspiring.",
+        headerblockseven: "Draw a wild invention. This activity will get your creative juices flowing and will most likely be wild and funny!",
+        headerblockeight: "Draw animals you love. For some people, animals are a source of love and happiness. Draw the ones that you love the most (your own pet included).",
+        headerblocknine: "Draw, color, or paint your idea of the perfect day or perfect home.This activity will help you create a visual of spaces and things that feel safe and warm to you.",
+        
     },
     {
 
@@ -110,8 +121,8 @@ const BlogPageInfo = [
 
         title: "Wish You Were More Creative?",
         subtitle: "9 ways to boost creativity",
-        author: "Molly ",
-        authoravator: EmilyPhoto,
+        author: "Abby ",
+        authoravator: AbbyPhoto,
         date: "31 March 2021 | 6 min read ",
         image: " ",
         content: "Blog 9 Content Here",
