@@ -6,7 +6,7 @@ import { Row, Col,  Button, Container  } from 'react-bootstrap';
 // import { Link } from "react-router-dom";
 
 export default function WorkBreakPage(props) {
-  const [blogClicked, setBlogClicked] = useState();
+  const [blogClicked, setBlogClicked] = useState(0);
 
   // useEffect(() =>{
   //   document.querySelectorAll('.blog-button')[0].style.height = '';
