@@ -1,11 +1,14 @@
 import MorningCoffee from '../images/WorkBreakPage/blogpages/coffee.jpg';
 import MindfulMoment from '../images/WorkBreakPage/blogpages/meditation.jpg';
 import Ocean from '../images/WorkBreakPage/blogpages/ocean.jpg';
-import AbbyPhoto from '../images/WorkBreakPage/blogpages/ocean.jpg';
+import AbbyPhoto from '../images/about/Abby4.jpeg';
 import MollyPhoto from '../images/about/Molly4.jpeg';
 import EmilyPhoto from '../images/about/EmilyHeadshot.jpeg';
-import ArtTherapy from '../images/PlayBreakPage/arttherapy.jpeg'
-
+import ArtTherapy from '../images/PlayBreakPage/arttherapy.jpeg';
+import Mindfulness from '../images/PlayBreakPage/mindfulness-meditation.jpeg';
+import RageRoom from '../images/PlayBreakPage/rageroom.png'
+import FiveSenses from '../images/HomeBreakPage/5senses.jpeg';
+import Holistic from '../images/HomeBreakPage/holistic.jpeg'
 const BlogPageInfo = [
     {
         title: "Morning Coffee",
@@ -68,30 +71,37 @@ const BlogPageInfo = [
     },
     {
 
-        title: "Home",
-        subtitle: "A cozy meditation.",
-        author: "Molly ",
-        authoravator: EmilyPhoto,
+        title: "Holistic Health",
+        subtitle: "The magic of everyday experiences",
+        author: "Molly Rose ",
+        authoravatar: MollyPhoto,
         date: "31 March 2021 | 6 min read ",
-        image: " ",
-        content: "Blog 5 Content Here",
+        image: Holistic,
+        contentblockone: " We’ve all heard of holistic health. Spirit, mind and body working together in harmony. If this is the case,why has society suggested we separate these routine experiences? In nutrition they tell us the 80/20 rule.  In fitness we are shown unrealistic expectations through social media about a “typical” workout routine. In mental health we are bombarded with the self help approach . But what if we looked at holistic health from a different perspective? What if holistic health meant, accepting where we are on the way to where we’re going? The fad diet roller coaster has become a societal norm. Instagram shows us the way my body should look. We are told, if we just did these habits for 60 days, our lives would change drastically. Our planners are full of trying to find balance in life. Check off all the things!  Drink plenty of water check, workout check, meditation check. Have you ever found yourself not fully experiencing the present moment due to restrictions? Human experience is more than restrictions. Don’t eat carbs. Hit the gym every day and do a little light reading in the evening to keep your mental health up. But what if we looked at holistic health as a way to fit into our lives rather than us fitting in all the things that we want to accomplish. What I have found, in my own journey of holistic health is growth happens in our everyday experience, a little bit at a time. Humans have been given an amazing opportunity to experience a beautiful life. The lives we have are a gift we were given. Shouldn’t holistic health be a part of the human experience? Rather than us trying to fit holistic health into our lives. Holistic health can be found in everyday experiences if we just allow ourselves to be present. Yes it is true that we are all given choices. The choice to fuel our bodies rather than eat. The choice to take a walk outside for exercise. What about stopping and appreciating our surroundings? Showing gratitude for all things in life we’ve already been given. As goal setting is a positive routine in our lives, the experiences we have on a daily basis define our outcomes. You might be asking yourself, Molly what are you getting at? The point is that society has expectations of us. Retail, advertising and corporations would rather we spend our time and energy planning to make a change in our lives rather than the human experience it takes to accomplish our goals. Accepting the core of who we are, and releasing the control of what society has planned for our lives, allows us to have the human experience we all crave. Holistic health happens in experience. Our mindset defines our experience. As spirit, mind and body work together in every encounter holistic health is elevated!",
+        headerblocktwo: "Affirmation: “I release the control to the universe. I am at peace with myself”",
+    
     },
     {
 
-        title: "No gym required",
-        subtitle: "We vetted hundreds of online exercise programs just for you",
-        author: "Molly ",
-        authoravator: EmilyPhoto,
+        title: "The Five Senses Exercise",
+        subtitle: "One example of a mindfulness exercise is called the Five Senses Exercise. The goal is to calm your mind by using your five senses to focus on your environment instead of your thoughts.",
+        author: "Abby ",
+        authoravatar: AbbyPhoto,
         date: "31 March 2021 | 6 min read ",
-        image: " ",
-        content: "Blog 6 Content Here",
+        image: FiveSenses,
+        headerblocktwo: "Here are the steps to complete this exercise:",
+        headerblockthree: "First, notice 5 things that you can see. Look around you and become aware of your environment. Try to pick out something that you don’t usually notice.",
+        headerblockfour: "Second, notice 4 things you can feel. Bring attention to the things that you’re currently feeling, such as the texture of your clothing or the smooth surface of the table you’re resting your hands on.",
+        headerblockfive: "Third, notice 3 things that you can hear. Listen for and notice things in the background that you don’t normally notice. It could be the birds chirping outside or an appliance humming in the next room.",
+        headerblocksix: "Fourth, notice 2 things you can smell. Bring attention to scents that you usually filter out, either pleasant or unpleasant. Catch a whiff of the pine trees outside or food cooking in the kitchen.",
+        headerblockseven: "Finally, notice 1 thing you can taste. Take a sip of a drink, chew gum, or notice the current taste in your mouth.",
     },
     {
 
         title: "Art Therapy",
         subtitle: "Your brain on art.",
         author: "Abby ",
-        authoravator: AbbyPhoto,
+        authoravatar: AbbyPhoto,
         date: "31 March 2021 | 6 min read ",
         image: ArtTherapy,
         introtext: "When we engage in the creation of our own art forms, we receive big benefits to our minds, both physically and mentally. When we produce art with our own hands, there is increased neural connectivity in the area of the brain that deals with introspection, memory, and self-monitoring. This means that this area is more active when engaged in producing art. Mentally, we become more psychologically resilient, we have increased positive perspectives, and become more self-aware. This helps us to cope with future problems, stressors, or events. It is said that the pairing of actually creating the art (motor processing) and thinking about expression (cognitive processing) is what makes art therapy so beneficial.",
@@ -109,23 +119,28 @@ const BlogPageInfo = [
     },
     {
 
-        title: "Can Meditating Boost Your Creativity?",
-        subtitle: "We asked the experts",
-        author: "Molly ",
-        authoravator: EmilyPhoto,
+        title: "What Is Mindfulness?",
+        subtitle: "“Mindfulness is awareness that arises through paying attention, on purpose, in the present moment, and non-judgmentally.”",
+        author: "Abby ",
+        authoravatar: AbbyPhoto,
         date: "31 March 2021 | 6 min read ",
-        image: " ",
-        content: "Blog 8 Content Here",
+        image: Mindfulness,
+        contentblockone: "Consider how you react when you don’t think you are good at something: say solving brain teasers. When you are presented with a brain teaser, what do you do? Do you tell yourself, “I am not good at this,” or “I am going to look stupid”? Does this distract you from paying attention to working on the puzzle?",
+        contentblocktwo: "How it might be different if you had an open attitude with no concern or judgment about performance, just a curiosity about how working on the brain teaser might be? What if you directly experienced the process as it unfolded—the challenges, anxieties, insights, accomplishments—acknowledging each thought or feeling and accepting it without needing to figure it out or explore it further.",
+        contentblockthree: "If you do this with some regularity, you start to see the habitual patterns that lead you to react automatically in negative or unhelpful ways and create stress. By observing instead of reacting, you develop a broader perspective and can choose a more effective response.",
+        headerblocktwo: "What is mindfulness meditation like?",
+        contentblockfour: "Sara, who has been practicing mindfulness meditation for several years, describes her typical practice. 'I sit in an upright posture, usually on a cushion or bench on the floor, but sometimes in a chair when my knees or back are bothering me. I usually pay attention to the sensations of breathing in and out. (Sometimes I tune into sounds or body sensations, but mostly when I am sitting I notice my breath.) Whenever my attention wanders from my breathing to thoughts and feelings that pop up, I just acknowledge that those thoughts or feelings are present right now, and then gently return to my breath. Noticing the thoughts or feelings is actually a moment of mindfulness! This practice isn’t always easy—sometimes I get lost in my thoughts for a long time, but eventually I notice I am lost, and I go back to my breath.'",
     },
     {
 
-        title: "Wish You Were More Creative?",
-        subtitle: "9 ways to boost creativity",
+        title: "Rage Rooms",
+        subtitle: "Why recreational smashing could be good for your mental health",
         author: "Abby ",
-        authoravator: AbbyPhoto,
+        authoravatar: AbbyPhoto,
         date: "31 March 2021 | 6 min read ",
-        image: " ",
-        content: "Blog 9 Content Here",
+        image: RageRoom,
+        contentblockone: "When we experience anger, it is often accompanied by feelings of stress or anxiety. You may feel stressed from holding on to pent up anger or may feel anxious about talking to someone who has made you angry. One of the best ways to get to deal with your anger is to calm the stress or anxiety you are also feeling. There is no doubt that a rage room and some destruction therapy can help to relieve stress. Once you have gotten some of your extra energy and stress out, you may find it easier to deal with whatever is making you feel angry. ",
+        contentblocktwo: "One way to lessen the feeling of anger is to do something you enjoy. There’s no doubt that breaking stuff in a rage room is fun! You can smash things by yourself or with a friend, and you are sure to have some fun destroying objects in the rage room. By letting loose and having some fun, you can take a moment to step back from your problems and get some distance from whatever is making you feel angry. You may find that you end up with a better perspective on your issues.",
     },
 
 ]

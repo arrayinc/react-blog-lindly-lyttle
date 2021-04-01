@@ -12,8 +12,8 @@ export default function HomeBreakPage(props) {
           <Navbar.Brand className="blogpage-nav-title" href="#home">Home Break</Navbar.Brand>
           <Nav className="mr-auto">
           <Nav.Link onClick={() => setBlogClicked(3)}>Morning Ritual</Nav.Link>
-            <Nav.Link onClick={() => setBlogClicked(4)}>Meditation</Nav.Link>
-            <Nav.Link onClick={() => setBlogClicked(5)}>Movement</Nav.Link>
+            <Nav.Link onClick={() => setBlogClicked(4)}>Holistic Health</Nav.Link>
+            <Nav.Link onClick={() => setBlogClicked(5)}>Sensory Play</Nav.Link>
           </Nav>
         </Navbar>
       </div>
@@ -47,6 +47,10 @@ export default function HomeBreakPage(props) {
           <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblocktwo}</p>
           <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockthree}</p>
           <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockthree}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockfour}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockfive}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblocksix}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockseven}</p>
         </Container>
       </Row>
     </>
