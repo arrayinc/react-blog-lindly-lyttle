@@ -10,15 +10,19 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import AuthorInfo from './pages/AuthorInfo';
 import ContactPage from './pages/ContactPage';
-import WorkBreak from './pages/WorkBreakHomePage';
-import HomeBreak from './pages/HomeBreakPage';
-import PlayBreak from './pages/PlayBreakPage';
+// import WorkBreak from './pages/WorkBreakPage';
+// import HomeBreak from './pages/HomeBreakPage';
+// import PlayBreak from './pages/PlayBreakPage';
 import BlogPageInfo from './blogdata/BlogPageInfo';
 
 /* Imported Blog Pages */
-import WBMorningRitual from './pages/WorkBreakMorningRitual';
+
 
 import { Switch, Route } from 'react-router-dom';
+import PlayBreakPage from './pages/PlayBreakPage';
+import WorkBreakPage from './pages/WorkBreakPage';
+import HomeBreakPage from './pages/HomeBreakPage';
+
 
 function App() {
   return (
@@ -30,16 +34,17 @@ function App() {
         <Switch>
           <Route path="/" component={HomePage} exact />
           <Route path="/contact" component={ContactPage} />
-          <Route path="/workbreak" render={(props) => (
-            <WorkBreak BlogPageInfo={BlogPageInfo} {...props} />
+          {/* <Route path="/workbreak" component={WorkBreak} /> */}
+          <Route path="/homebreakpage" render={(props) => (
+            <HomeBreakPage BlogPageInfo={BlogPageInfo} {...props} />
              )}/>
-          <Route path="/homebreak" render={(props) => (
-            <HomeBreak BlogPageInfo={BlogPageInfo} {...props} />
+             {/* <Route path="/playbreak" component={PlayBreak} /> */}
+          <Route path="/playbreakpage" render={(props) => (
+            <PlayBreakPage BlogPageInfo={BlogPageInfo} {...props} />
              )}/>
-          <Route path="/playbreak" render={(props) => (
-            <PlayBreak BlogPageInfo={BlogPageInfo} {...props} />
+          <Route path="/workbreakpage" render={(props) => (
+            <WorkBreakPage BlogPageInfo={BlogPageInfo} {...props} />
              )}/>
-          <Route path="/workbreakmorningritual" component={WBMorningRitual} />
           <Route path="/about" render={(props) => (
             <AboutPage AuthorInfo={AuthorInfo} {...props} />
           )} />

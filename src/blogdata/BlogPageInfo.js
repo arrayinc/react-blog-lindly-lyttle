@@ -1,9 +1,10 @@
+import molly from '../images/about/Molly4.jpeg'
 const BlogPageInfo = [
 {
     title: "Blog 1 ",
-    author: "Molly ",
+    author: "Molly",
     date: "3-30-21 ",
-    image: " ",
+    image: molly,
     content: "  We’ve all heard of holistic health. Spirit, mind and body working together in harmony. If this is the case,why has society suggested we separate these routine experiences? ",
 },
 {
@@ -12,7 +13,7 @@ const BlogPageInfo = [
         author: "Molly ",
         date: "3-30-21 ",
         image: " ",
-        content:  " ", 
+        content:  "testing blog 2 ", 
 },
 {
     
@@ -20,7 +21,7 @@ const BlogPageInfo = [
     author: "Molly ",
     date: "3-30-21 ",
     image: " ",
-    content:  " ", 
+    content:  " testing blog 3", 
 },
 {
     
@@ -28,7 +29,7 @@ const BlogPageInfo = [
     author: "Molly ",
     date: "3-30-21 ",
     image: " ",
-    content:  " ", 
+    content:  " testing blog 4 ", 
 },
 {
     
@@ -36,7 +37,7 @@ const BlogPageInfo = [
     author: "Molly ",
     date: "3-30-21 ",
     image: " ",
-    content:   " ",
+    content:   "testing blog 5 ",
 },
 {
     
@@ -44,7 +45,7 @@ const BlogPageInfo = [
     author: "Molly ",
     date: "3-30-21 ",
     image: " ",
-    content:  " ", 
+    content:  " testing blog 6", 
 },
 {
     
@@ -52,7 +53,7 @@ const BlogPageInfo = [
     author: "Molly ",
     date: "3-30-21 ",
     image: " ",
-    content:  " ", 
+    content:  " testing blog 7", 
 },
 {
     
@@ -60,7 +61,7 @@ const BlogPageInfo = [
     author: "Molly ",
     date: "3-30-21 ",
     image: " ",
-    content:  " ", 
+    content:  " testing blog 8 ", 
 },
 {
     
@@ -68,7 +69,7 @@ const BlogPageInfo = [
     author: "Molly ",
     date: "3-30-21 ",
     image: " ",
-    content:  " ", 
+    content:  " testing blog 9 ", 
 },
 
 ]
