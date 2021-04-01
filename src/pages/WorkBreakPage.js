@@ -18,6 +18,7 @@ export default function WorkBreakPage(props) {
   return (
     
     <>
+    <h1>WorkBreak</h1>
     <Container className="blog-container">
     <Row>
       <Col> 
@@ -34,8 +35,10 @@ export default function WorkBreakPage(props) {
   <Row>
     <Container className="blog-content">
     <Col>
-<h1 className="blog-date">{props.BlogPageInfo[blogClicked].title}</h1>
+<h1 className="blog-date">{props.BlogPageInfo[blogClicked].date}</h1>
+<p>{props.BlogPageInfo[blogClicked].author}</p>
 <p>{props.BlogPageInfo[blogClicked].content}</p>
+
     </Col>
     </Container>
   </Row>

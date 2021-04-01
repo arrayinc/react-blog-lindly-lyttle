@@ -10,7 +10,7 @@ const BlogPageInfo = [
 {
     
         title: "Blog 2 ",
-        author: "Molly ",
+        author: "Emily ",
         date: "3-30-21 ",
         image: " ",
         content:  "testing blog 2 ", 
@@ -18,7 +18,7 @@ const BlogPageInfo = [
 {
     
     title: "Blog 3 ",
-    author: "Molly ",
+    author: "Abby ",
     date: "3-30-21 ",
     image: " ",
     content:  " testing blog 3", 

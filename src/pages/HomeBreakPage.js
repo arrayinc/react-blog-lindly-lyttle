@@ -18,6 +18,7 @@ export default function HomeBreakPage(props) {
   return (
     
     <>
+    <h1>HomeBreak</h1>
     <Container className="blog-container">
     <Row>
       <Col> 

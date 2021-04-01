@@ -18,6 +18,7 @@ export default function PlayBreakPage(props) {
   return (
     
     <>
+    <h1>PlayBreak</h1>
     <Container className="blog-container">
     <Row>
       <Col> 
