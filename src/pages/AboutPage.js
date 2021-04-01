@@ -18,13 +18,13 @@ export default function AboutPage(props) {
     <Container className="about-container">
     <Row>
       <Col> 
-      <Image  className="author" src={props.AuthorInfo[0].image} roundedCircle onClick={() => setAuthorClicked(0)}/>
+      <Image  className="author" src={props.AuthorInfo[0].photo} roundedCircle onClick={() => setAuthorClicked(0)}/>
       </Col>
       <Col >
-      <Image  className="author" src={props.AuthorInfo[1].image} roundedCircle onClick={() => setAuthorClicked(1)}/>
+      <Image  className="author" src={props.AuthorInfo[1].photo} roundedCircle onClick={() => setAuthorClicked(1)}/>
       </Col>
       <Col >
-      <Image  className="author" src={props.AuthorInfo[2].image} roundedCircle onClick={() => setAuthorClicked(2)}/>
+      <Image  className="author" src={props.AuthorInfo[2].photo} roundedCircle onClick={() => setAuthorClicked(2)}/>
       </Col>
     </Row>
   

@@ -27,7 +27,7 @@ const BlogPageInfo = [
 
         title: "A Mindful Moment",
         author: "Abby Lyttle",
-        authoravator: AbbyPhoto,
+        authoravatar: AbbyPhoto,
         date: "31 March 2021 | 6 min read ",
         image: MindfulMoment,
         photocredit: "Mukul Wadhwa | @mukulwadhwa",
@@ -44,7 +44,7 @@ const BlogPageInfo = [
         title: "Is Good For Your Health",
         subtitle: "5 Reasons Why Working From Home",
         author: "Abby Lyttle",
-        authoravator: AbbyPhoto,
+        authoravatar: MollyPhoto,
         date: "31 March 2021 | 6 min read ",
         image: Ocean,
         photocredit: "Mukul Wadhwa | @mukulwadhwa",
