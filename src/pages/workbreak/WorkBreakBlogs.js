@@ -27,7 +27,9 @@ export default function WorkBreakPage(props) {
       <Row>
         <Container className="blog-content">
           <h1 className="blog-title">{props.BlogPageInfo[blogClicked].title}</h1>
-          <h3 className="blog-subtitle">{props.BlogPageInfo[blogClicked].subtitle}</h3>
+          <Container className="subtitle-container">
+            <h3 className="blog-subtitle">{props.BlogPageInfo[blogClicked].subtitle}</h3>
+          </Container>
           <br />
           <Image className="author-avatar" src={props.BlogPageInfo[blogClicked].authoravatar} alt="" />
           <h6 className="blog-author">Authored By {props.BlogPageInfo[blogClicked].author} &nbsp;<Badge pill variant="dark">Follow</Badge></h6>
