@@ -11,12 +11,12 @@ const AuthorInfo = [
 {
     name: "Abby Lyttle",
     photo: abby,
-    about: "Second Boss Bitch"
+    about: "Abby is brand new, to everything. Recently she has fallen in love with recovery from active addiction, being a single mom, getting healthy, making friends and learning new skills. When she has the rare opportunity for downtime, she is usually knitting or drawing."
 },
 {
     name: "Molly Rose",
     photo: molly,
-    about: "Third Boss Bitch"
+    about: "Molly is the proud co-founder of Rose Rock, a home healthcare business. She is a holistic guru that values making self care a priority. Molly makes herself available to her family and friends for advice on anything from yoga to essential oils or even dating"
 }  
 ]
 export default AuthorInfo;
