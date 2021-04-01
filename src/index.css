@@ -197,35 +197,39 @@ code {
   margin-left: 22%;
   font-size: 3.5em;
   margin-top: 7%;
-  margin-bottom: -0.5%;
+  margin-bottom: 1%;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .blog-subtitle {
   font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.subtitle-container {
+  border: transparent;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-43%, 320%);
-  margin-bottom: 7%;
+  width: 610px!important;
+  height: 100px!important;
+  right: 29%;
 }
 
 .blog-author {
   margin-left: 30%;
   font-family: "Times New Roman", Times, serif;
-  margin-top: 7%;
+  margin-top: 1%;
   margin-bottom: -1.5%;
 }
 
 .author-avatar {
+  margin-top: 3%;
   border-radius: 50%;
   height: 65px;
   width: 65px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-467%, 382%);
+  position: relative;
+  top: 2.1%;
+  left: 23%;
 }
 
 .blog-date-time {
@@ -236,9 +240,10 @@ code {
 }
 
 .socials {
-  margin-top: -3.1%;
-  margin-left: 67%;
+  margin-left: 67.2%;
   font-size: 1.2em;
+  position: relative;
+  top: -1.5%;
 }
 
 .blog-intro-text {
@@ -293,7 +298,7 @@ code {
 }
 
 .blog-image {
-  margin-top: 5%;
+  margin-top: 1%;
   margin-left: 23%;
   width: 600px;
   height: 450px;
