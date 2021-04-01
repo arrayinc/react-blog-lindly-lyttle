@@ -1,6 +1,7 @@
 import emily from '../images/about/EmilyHeadshot.jpeg'
 import abby from '../images/about/Abby4.jpeg'
 import molly from '../images/about/Molly4.jpeg'
+
 const AuthorInfo = [
 {
     name: "Emily Lindly",
@@ -18,5 +19,4 @@ const AuthorInfo = [
     about: "Third Boss Bitch"
 }  
 ]
-
 export default AuthorInfo;

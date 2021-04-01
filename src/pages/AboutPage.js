@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Row, Col,  Image, Container  } from 'react-bootstrap';
 
 
-
 export default function AboutPage(props) {
   const [authorClicked, setAuthorClicked] = useState(0);
 

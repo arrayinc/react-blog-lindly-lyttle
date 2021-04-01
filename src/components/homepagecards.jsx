@@ -24,7 +24,7 @@ export class HomepageCards extends Component {
                 the bulk of the card's content.
               </Card.Text> */}
             </Card.Body>
-            <Link to="/workbreak">
+            <Link to="/workbreak/blogs">
               <Card.Footer className="work-card-footer">
                 Work Break <PauseFill />
               </Card.Footer>
@@ -42,7 +42,7 @@ export class HomepageCards extends Component {
                   the bulk of the card's content.
                 </Card.Text> */}
             </Card.Body>
-            <Link to="/homebreak">
+            <Link to="/homebreak/blogs">
               <Card.Footer className="home-card-footer">
                 Home Break <PauseFill />
               </Card.Footer>
@@ -60,7 +60,7 @@ export class HomepageCards extends Component {
                 the bulk of the card's content.
               </Card.Text> */}
             </Card.Body>
-            <Link to="/playbreak">
+            <Link to="/playbreak/blogs">
               <Card.Footer className="play-card-footer">
                 Play Break <PlayFill />
               </Card.Footer>

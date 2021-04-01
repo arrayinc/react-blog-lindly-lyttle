@@ -17,13 +17,13 @@ export class SiteNavbar extends Component {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
               <NavDropdown title="Blog" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/workbreakpage">
+                <NavDropdown.Item href="/workbreak/blogs">
                   Work BREAK
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/homebreakpage">
+                <NavDropdown.Item href="/homebreak/blogs">
                   Home BREAK
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/playbreakpage">
+                <NavDropdown.Item href="/playbreak/blogs">
                   Play BREAK
                 </NavDropdown.Item>
               </NavDropdown>

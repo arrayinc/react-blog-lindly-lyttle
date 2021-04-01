@@ -16,13 +16,10 @@ import ContactPage from './pages/ContactPage';
 import BlogPageInfo from './blogdata/BlogPageInfo';
 
 /* Imported Blog Pages */
-
-
 import { Switch, Route } from 'react-router-dom';
-import PlayBreakPage from './pages/PlayBreakPage';
-import WorkBreakPage from './pages/WorkBreakPage';
-import HomeBreakPage from './pages/HomeBreakPage';
-
+import WorkBreakBlogs from './pages/workbreak/WorkBreakBlogs';
+import HomeBreakBlogs from './pages/homebreak/HomeBreakBlogs';
+import PlayBreakBlogs from './pages/playbreak/PlayBreakBlogs';
 
 function App() {
   return (
@@ -34,16 +31,14 @@ function App() {
         <Switch>
           <Route path="/" component={HomePage} exact />
           <Route path="/contact" component={ContactPage} />
-          {/* <Route path="/workbreak" component={WorkBreak} /> */}
-          <Route path="/homebreakpage" render={(props) => (
-            <HomeBreakPage BlogPageInfo={BlogPageInfo} {...props} />
+          <Route path="/homebreak/blogs" render={(props) => (
+            <HomeBreakBlogs BlogPageInfo={BlogPageInfo} {...props} />
              )}/>
-             {/* <Route path="/playbreak" component={PlayBreak} /> */}
-          <Route path="/playbreakpage" render={(props) => (
-            <PlayBreakPage BlogPageInfo={BlogPageInfo} {...props} />
+          <Route path="/playbreak/blogs" render={(props) => (
+            <PlayBreakBlogs BlogPageInfo={BlogPageInfo} {...props} />
              )}/>
-          <Route path="/workbreakpage" render={(props) => (
-            <WorkBreakPage BlogPageInfo={BlogPageInfo} {...props} />
+          <Route path="/workbreak/blogs" render={(props) => (
+            <WorkBreakBlogs BlogPageInfo={BlogPageInfo} {...props} />
              )}/>
           <Route path="/about" render={(props) => (
             <AboutPage AuthorInfo={AuthorInfo} {...props} />
