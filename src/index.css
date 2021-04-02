@@ -28,10 +28,21 @@ code {
 
 .navbar-right {
   margin-right: 2%;
+  background-color: transparent!important;
+
 }
 
+.nav-right-text:hover {
+  color: rgba(0, 0, 0, 0.774)!important;
+  text-decoration: none!important;
+  text-decoration-color: none!important;
+}
+
+
 .nav-right-text {
-  color: black;
+  color: rgba(0,0,0,.5)!important;
+  text-decoration: none!important;
+  text-decoration-color: none!important;
 }
 
 .footer {
