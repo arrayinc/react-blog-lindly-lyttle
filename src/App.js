@@ -2,7 +2,7 @@ import './index.css';
 import SiteNavbar from './components/navbar';
 import Footer from './components/footer';
 import FooterNavbar from './components/footernavbar';
-import ScrollToTop from "./components/scroll-to-top";
+import ScrollToTop from './components/scroll-to-top';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 /* Imported Site Pages */
@@ -33,13 +33,13 @@ function App() {
           <Route path="/contact" component={ContactPage} />
           <Route path="/homebreak/blogs" render={(props) => (
             <HomeBreakBlogs BlogPageInfo={BlogPageInfo} {...props} />
-             )}/>
+          )} />
           <Route path="/playbreak/blogs" render={(props) => (
             <PlayBreakBlogs BlogPageInfo={BlogPageInfo} {...props} />
-             )}/>
+          )} />
           <Route path="/workbreak/blogs" render={(props) => (
             <WorkBreakBlogs BlogPageInfo={BlogPageInfo} {...props} />
-             )}/>
+          )} />
           <Route path="/about" render={(props) => (
             <AboutPage AuthorInfo={AuthorInfo} {...props} />
           )} />
