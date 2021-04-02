@@ -62,6 +62,11 @@ code {
   font-size: 1.5em;
 }
 
+a.nav-link {
+  text-decoration: none !important;
+  color: rgba(0, 0, 0, 0.5)!important;
+}
+
 .copyright-text {
   font-size: 0.5em;
   display: flex;
@@ -85,75 +90,115 @@ code {
   text-align: center;
   padding-top: 3%;
   padding-bottom: 1%;
+  font-size: 3.5em;
+  font-weight: 10;
+  text-shadow: 0.5px 0.5px rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .homepage-subtitle {
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.1em;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.7em;
   padding-bottom: 7%;
 }
 
 /* Carousel */
 .carousel {
-  width: 55%;
+  width: 100%;
   height: 50%;
-  margin-left: 22.25%;
-  margin-top: -25%;
+  margin-left: 0%;
+  margin-top: -31%;
   z-index: -1;
 }
 
 /* Homepage Cards */
+.rainbow {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif !important;
+  transform: translate(10px, 965px);
+}
+
+.rainbow_text_animated {
+  background: linear-gradient(
+    to right,
+    #2b2eff,
+    #00ff0d,
+    #eeb808,
+    #d82929,
+    #368cbe
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 7s ease-out;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
+
 .card-deck {
-  width: 90%;
-  padding-left: 20%;
+  width: 95%;
+  padding-top: 12%;
+  padding-left: 13%;
   padding-right: 8%;
   padding-bottom: 3%;
 }
 
-.card-columns {
-  width: 50%;
-  height: 500px;
-  margin-left: 23%;
-  margin-top: 4%;
-}
-
-.card-icons {
-  color: white;
-  font-size: 5em;
-  margin-top: 7%;
-}
-
 .card-body {
   height: 200px;
+  box-shadow: 1px 1px 1px rgb(99, 99, 99);
 }
 
 .work-card-body {
-  background-image: url("./images/WorkBreakPage/workbreakblog2.jpg");
+  background-color: rgb(185, 255, 240);
   background-size: cover;
 }
 
 .home-card-body {
-  background-image: url("./images/HomeBreakPage/homebreakblogcard.jpg");
+  background-color: rgb(252, 255, 210);
   background-size: cover;
 }
 
 .play-card-body {
-  background-image: url("./images/PlayBreakPage/playbreakblogcard.jpg");
+  background-color: rgb(174, 152, 253);
   background-size: cover;
 }
 
-.work-card-footer {
-  color: orange;
+.card-footer {
+  color: black;
+  background-color: white !important;
+  box-shadow: 1px 1px 1px rgb(99, 99, 99);
+  font-weight: lighter;
+  font-size: 1.5em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.home-card-footer {
-  color: green;
+.card-footer:hover {
+  font-size: 200%;
+  color: rgb(197, 197, 197);
+  transition: 0.5s;
 }
 
-.play-card-footer {
-  color: rgb(0, 68, 255);
+a {
+  text-decoration: rgba(255, 255, 255, 0.788) !important;
 }
+
 /************************************************************************/
 
 /* ALL Blog Home Pages */
@@ -420,52 +465,46 @@ code {
   flex: 1;
 }
 /* About Page */
-#about-us-header {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 4%;
-  font-size: 3em;
+.about-us-header {
+  font-weight: 200;
+  margin-left: 34%;
+  margin-bottom: 3%;
 }
 
-.rainbow {
-  text-decoration: underline;
-  font-size: 20px;
-  margin-top: 5%;
-  margin-left: -5%;
+.about-us-header {
+  font-size: 3.5em;
 }
 
-.rainbow_text_animated {
-  background: linear-gradient(
-    to right,
-    #2b2eff,
-    #00ff0d,
-    #eeb808,
-    #d82929,
-    #368cbe
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: rainbow_animation 7s ease-out;
-  background-size: 400% 100%;
+.about-nav {
+  margin-top: -5%;
+  margin-bottom: 4% !important;
+  font-size: 1em !important;
+  background-color: rgb(252, 212, 167) !important;
+}
+
+.about-nav-title {
+  text-shadow: 0.1px 0.1px black !important;
+  background-color: none !important;
+  font-size: 1em !important;
+  margin-left: 10%;
 }
 
 .author {
   height: 200px;
-  padding-left: 10%;
-  border-radius: 50%; 
+  position: relative;
+  left: 21%;
+  border-radius: 50%;
 }
 
 #fadein {
   opacity: 1;
   transition: 2s ease;
-  }
-  
-  #fadein:hover{
-  opacity: .5;
-  transition: 2s ease;
-  }
+}
 
+#fadein:hover {
+  opacity: 0.5;
+  transition: 2s ease;
+}
 
 .about-photo-container {
   padding-top: 3%;
@@ -482,18 +521,21 @@ code {
 .author-name {
   text-align: center;
   color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-top: 5%;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-top: 2%;
   margin-bottom: 2%;
 }
 
 .about-text {
   color: black;
   align-content: justify;
+  text-align: center;
   margin-top: 1%;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
 }
-
 
 /************************************************************************/
