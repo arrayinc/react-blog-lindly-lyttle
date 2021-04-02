@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navbar, Nav, Row, Button, Container, Badge, Image } from 'react-bootstrap';
+import { Navbar, Nav, Row, Container, Badge, Image } from 'react-bootstrap';
 import { Facebook, Twitter, Instagram, Bookmark, ThreeDotsVertical, Calendar } from "react-bootstrap-icons";
 
 export default function PlayBreakPage(props) {
@@ -7,20 +7,21 @@ export default function PlayBreakPage(props) {
   return (
     <>
       <div>
-        <Navbar className="blogpage-nav" bg="light" variant="light">
-          <Navbar.Brand className="blogpage-nav-title" href="#home">Play Break</Navbar.Brand>
+        <Navbar className="playbreak-blogpage-nav" variant="light">
+          <Navbar.Brand className="playbreak-nav-title" href="#home">Play Break</Navbar.Brand>
           <Nav className="mr-auto">
-          <Nav.Link onClick={() => setBlogClicked(6)}>Art Therapy</Nav.Link>
-            <Nav.Link onClick={() => setBlogClicked(7)}>Mindfulness</Nav.Link>
-            <Nav.Link onClick={() => setBlogClicked(8)}>Play Hard</Nav.Link>
+            <Nav.Link onClick={() => setBlogClicked(6)}>Art Therapy</Nav.Link>
+            <Nav.Link onClick={() => setBlogClicked(7)}>Meditation</Nav.Link>
+            <Nav.Link onClick={() => setBlogClicked(8)}>Movement</Nav.Link>
           </Nav>
         </Navbar>
       </div>
+
       <Container className="blog-container">
         <Row>
-          <Button className="blog-button-seven" onClick={() => setBlogClicked(6)} />
-          <Button className="blog-button-eight" onClick={() => setBlogClicked(7)} />
-          <Button className="blog-button-nine" onClick={() => setBlogClicked(8)} />
+          <div className="blog-button-one" onClick={() => setBlogClicked(6)}></div>
+          <div className="blog-button-two" onClick={() => setBlogClicked(7)}></div>
+          <div className="blog-button-three" onClick={() => setBlogClicked(8)}></div>
         </Row>
       </Container>
       <Row>
@@ -30,7 +31,7 @@ export default function PlayBreakPage(props) {
             <h3 className="blog-subtitle">{props.BlogPageInfo[blogClicked].subtitle}</h3>
           </Container>
           <br />
-          <Image className="author-avatar" src={props.BlogPageInfo[blogClicked].authoravatar} alt="" />
+          <Image className="playbreak-author-avatar" src={props.BlogPageInfo[blogClicked].authoravatar} alt="" />
           <h6 className="blog-author">Authored By {props.BlogPageInfo[blogClicked].author} &nbsp;<Badge pill variant="dark">Follow</Badge></h6>
           <br /><h6 className="blog-date-time"><Calendar /> {props.BlogPageInfo[blogClicked].date}</h6>
           <p className="socials"> <Facebook /> <Twitter /> <Instagram /> <Bookmark /> <ThreeDotsVertical /></p>
@@ -38,20 +39,26 @@ export default function PlayBreakPage(props) {
           <p className="photo-credit">{props.BlogPageInfo[blogClicked].photocredit}</p>
           <p className="blog-quote">{props.BlogPageInfo[blogClicked].quote}</p>
           <hr className="line-break" />
-          <libr />
           <p className="blog-intro-text">{props.BlogPageInfo[blogClicked].introtext}</p>
+          <hr className="line-break" />
           <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockone}</p>
-          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockthree}</p>
           <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblocktwo}</p>
-          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockfour}</p>
-          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockthree}</p>
-          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockfour}</p>
-          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockfive}</p>
           <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblocktwo}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockthree}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockthree}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockfour}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockfour}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockfive}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockfive}</p>
           <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblocksix}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblocksix}</p>
           <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockseven}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockseven}</p>
           <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockeight}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockeight}</p>
           <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblocknine}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblocknine}</p>
+          <hr className="line-break" />
         </Container>
       </Row>
     </>

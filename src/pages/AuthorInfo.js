@@ -6,7 +6,7 @@ const AuthorInfo = [
 {
     name: "Emily Lindly",
     photo: emily,
-    about: "Boss Bitch"
+    about: "Emily has always enjoyed discovering and sharing methods of self-care. To her, holistic health is deep belly laughter, unhurried cooking on a Friday night, and acheiving 95% or > on her Sleep Cycle app."
 },
 {
     name: "Abby Lyttle",
