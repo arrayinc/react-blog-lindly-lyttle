@@ -6,11 +6,11 @@ export default function PlayBreakPage(props) {
   const [blogClicked, setBlogClicked] = useState(6);
   return (
     <>
-     <div>
+      <div>
         <Navbar className="playbreak-blogpage-nav" variant="light">
           <Navbar.Brand className="playbreak-nav-title" href="#home">Play Break</Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link onClick={() => setBlogClicked(6)}>Morning Ritual</Nav.Link>
+            <Nav.Link onClick={() => setBlogClicked(6)}>Art Therapy</Nav.Link>
             <Nav.Link onClick={() => setBlogClicked(7)}>Meditation</Nav.Link>
             <Nav.Link onClick={() => setBlogClicked(8)}>Movement</Nav.Link>
           </Nav>
@@ -46,6 +46,18 @@ export default function PlayBreakPage(props) {
           <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblocktwo}</p>
           <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockthree}</p>
           <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockthree}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockfour}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockfour}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockfive}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockfive}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblocksix}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblocksix}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockseven}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockseven}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockeight}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockeight}</p>
+          <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblocknine}</p>
+          <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblocknine}</p>
           <hr className="line-break" />
         </Container>
       </Row>

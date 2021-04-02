@@ -11,9 +11,9 @@ export default function HomeBreakPage(props) {
         <Navbar className="homebreak-blogpage-nav" variant="light">
           <Navbar.Brand className="homebreak-nav-title" href="#home">Home Break</Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link onClick={() => setBlogClicked(3)}>Morning Ritual</Nav.Link>
-            <Nav.Link onClick={() => setBlogClicked(4)}>Meditation</Nav.Link>
-            <Nav.Link onClick={() => setBlogClicked(5)}>Movement</Nav.Link>
+            <Nav.Link onClick={() => setBlogClicked(3)}>Self-care</Nav.Link>
+            <Nav.Link onClick={() => setBlogClicked(4)}>Holistic Health</Nav.Link>
+            <Nav.Link onClick={() => setBlogClicked(5)}>Meditation</Nav.Link>
           </Nav>
         </Navbar>
       </div>

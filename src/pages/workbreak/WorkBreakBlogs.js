@@ -12,7 +12,7 @@ export default function WorkBreakPage(props) {
           <Nav className="mr-auto">
             <Nav.Link onClick={() => setBlogClicked(0)}>Morning Ritual</Nav.Link>
             <Nav.Link onClick={() => setBlogClicked(1)}>Meditation</Nav.Link>
-            <Nav.Link onClick={() => setBlogClicked(2)}>Movement</Nav.Link>
+            <Nav.Link onClick={() => setBlogClicked(2)}>WFH</Nav.Link>
           </Nav>
         </Navbar>
       </div>
