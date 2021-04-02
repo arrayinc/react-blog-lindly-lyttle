@@ -9,59 +9,38 @@ export class HomepageCards extends Component {
       <>
         <CardDeck className="card-deck">
           <Card
-            border="warning"
+            border="none"
             className="card-image"
             style={{
               width: "10rem",
             }}
           >
             <Card.Body className="work-card-body">
-              {/* <Card.Title className="homepage-card-title">
-                  Work Break
-                </Card.Title> */}
-              {/* <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text> */}
             </Card.Body>
             <Link to="/workbreak/blogs">
-              <Card.Footer className="work-card-footer">
+              <Card.Footer className="card-footer">
                 Work Break <PauseFill />
               </Card.Footer>
             </Link>
           </Card>
           <br />
 
-          <Card border="success" style={{ width: "10rem" }}>
+          <Card border="none" style={{ width: "10rem" }}>
             <Card.Body className="home-card-body">
-              {/* <Card.Title className="homepage-card-title">
-                  Home Break
-                </Card.Title> */}
-              {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
             </Card.Body>
             <Link to="/homebreak/blogs">
-              <Card.Footer className="home-card-footer">
+              <Card.Footer className="card-footer">
                 Home Break <PauseFill />
               </Card.Footer>
             </Link>
           </Card>
           <br />
 
-          <Card border="primary" style={{ width: "10rem" }}>
+          <Card border="none" style={{ width: "10rem" }}>
             <Card.Body className="play-card-body">
-              {/* <Card.Title className="homepage-card-title">
-                  Play Break
-                </Card.Title> */}
-              {/* <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text> */}
             </Card.Body>
             <Link to="/playbreak/blogs">
-              <Card.Footer className="play-card-footer">
+              <Card.Footer className="card-footer">
                 Play Break <PlayFill />
               </Card.Footer>
             </Link>
