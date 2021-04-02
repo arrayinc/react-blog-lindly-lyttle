@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Navbar, Nav, Row, Button, Container, Badge, Image } from 'react-bootstrap';
-import { Facebook, Twitter, Instagram, Bookmark, ThreeDotsVertical, Calendar } from "react-bootstrap-icons";
+import { Facebook, Twitter, Instagram, Bookmark, ThreeDotsVertical, Calendar, PauseFill } from "react-bootstrap-icons";
 
 export default function WorkBreakPage(props) {
   const [blogClicked, setBlogClicked] = useState(0);
@@ -19,7 +19,7 @@ export default function WorkBreakPage(props) {
 
       <Container className="blog-container">
         <Row>
-          <Button className="blog-button-one" onClick={() => setBlogClicked(0)} />
+            <Button className="blog-button-one" onClick={() => setBlogClicked(0)} />
           <Button className="blog-button-two" onClick={() => setBlogClicked(1)} />
           <Button className="blog-button-three" onClick={() => setBlogClicked(2)} />
         </Row>

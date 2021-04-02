@@ -305,20 +305,21 @@ code {
 }
 
 .btn-primary {
-  width: 150px !important;
-  height: 150px !important;
+  width: 50px !important;
+  height: 30px !important;
   border-radius: 12px !important;
+  margin-top: -5.5%!important;
 }
 
 .blog-button-one {
-  margin-left: 30% !important;
-  margin-right: 1% !important;
+  margin-left: 43% !important;
+  margin-right: 5% !important;
 }
 
 .blog-button-two {
   background-color: rgb(255, 217, 0) !important;
   border-color: rgb(255, 217, 0) !important;
-  margin-right: 1% !important;
+  margin-right: 4% !important;
 }
 
 .blog-button-three {
@@ -368,9 +369,11 @@ code {
   font-size: 1em !important;
 }
 
+
 .blogpage-nav-title {
-  margin-left: 3%;
-  font-size: 1em !important;
+  background-color: none!important;
+  font-size: 1em!important;
+  margin-left: 35%;
 }
 /************************************************************************/
 
