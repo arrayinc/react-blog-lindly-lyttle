@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navbar, Nav, Row, Button, Container, Badge, Image } from 'react-bootstrap';
+import { Navbar, Nav, Row, Container, Badge, Image } from 'react-bootstrap';
 import { Facebook, Twitter, Instagram, Bookmark, ThreeDotsVertical, Calendar, PauseFill } from "react-bootstrap-icons";
 
 export default function WorkBreakPage(props) {
@@ -7,8 +7,8 @@ export default function WorkBreakPage(props) {
   return (
     <>
       <div>
-        <Navbar className="blogpage-nav" bg="light" variant="light">
-          <Navbar.Brand className="blogpage-nav-title" href="#home">Work Break</Navbar.Brand>
+        <Navbar className="workbreak-blogpage-nav" variant="light">
+          <Navbar.Brand className="workbreak-nav-title" href="#home">Work Break</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link onClick={() => setBlogClicked(0)}>Morning Ritual</Nav.Link>
             <Nav.Link onClick={() => setBlogClicked(1)}>Meditation</Nav.Link>
@@ -19,9 +19,9 @@ export default function WorkBreakPage(props) {
 
       <Container className="blog-container">
         <Row>
-            <Button className="blog-button-one" onClick={() => setBlogClicked(0)} />
-          <Button className="blog-button-two" onClick={() => setBlogClicked(1)} />
-          <Button className="blog-button-three" onClick={() => setBlogClicked(2)} />
+          <div className="blog-button-one" onClick={() => setBlogClicked(0)}></div>
+          <div className="blog-button-two" onClick={() => setBlogClicked(1)}></div>
+          <div className="blog-button-three" onClick={() => setBlogClicked(2)}></div>
         </Row>
       </Container>
       <Row>
@@ -39,13 +39,14 @@ export default function WorkBreakPage(props) {
           <p className="photo-credit">{props.BlogPageInfo[blogClicked].photocredit}</p>
           <p className="blog-quote">{props.BlogPageInfo[blogClicked].quote}</p>
           <hr className="line-break" />
-          <libr />
           <p className="blog-intro-text">{props.BlogPageInfo[blogClicked].introtext}</p>
+          <hr className="line-break" />
           <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockone}</p>
           <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblocktwo}</p>
           <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblocktwo}</p>
           <p className="blog-header">{props.BlogPageInfo[blogClicked].headerblockthree}</p>
           <p className="blog-text">{props.BlogPageInfo[blogClicked].contentblockthree}</p>
+          <hr className="line-break" />
         </Container>
       </Row>
     </>

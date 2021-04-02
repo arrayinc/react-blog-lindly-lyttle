@@ -5,11 +5,14 @@ import { Row, Col,  Image, Container  } from 'react-bootstrap';
 export default function AboutPage(props) {
   const [authorClicked, setAuthorClicked] = useState(0);
 
+
+
   useEffect(() =>{
     document.querySelectorAll('.author')[0].style.height = '';
     document.querySelectorAll('.author')[1].style.height = '';
     document.querySelectorAll('.author')[2].style.height = '';
-    document.querySelectorAll('.author')[authorClicked].style.height ='300px' ;
+    document.querySelectorAll('.author')[authorClicked].style.height ='200px'
+    // document.querySelectorAll('.author')[authorClicked].style.width ='275px'
   });
 
   return (
@@ -32,6 +35,7 @@ export default function AboutPage(props) {
     <Container className="author-text">
     <Col>
 <h1 className="author-name">{props.AuthorInfo[authorClicked].name}</h1>
+
 <p>{props.AuthorInfo[authorClicked].about}</p>
     </Col>
     </Container>
