@@ -9,7 +9,7 @@ export default function HomeBreakPage(props) {
     <>
       <div>
         <Navbar className="homebreak-blogpage-nav" variant="light">
-          <Navbar.Brand className="homebreak-nav-title" href="#home">Home Break</Navbar.Brand>
+          <Navbar.Brand className="blog-nav-title" href="#home">Home Break</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link onClick={() => setBlogClicked(3)}>Self-care</Nav.Link>
             <Nav.Link onClick={() => setBlogClicked(4)}>Holistic Health</Nav.Link>

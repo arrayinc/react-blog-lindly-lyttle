@@ -1,13 +1,20 @@
 import React, { Component } from "react";
-import { Nav } from "react-bootstrap";
+import { Nav, Col } from "react-bootstrap";
 
 export class Footer extends Component {
   render() {
     return (
-      <Nav defaultActiveKey="/home" className="flex-column">
-        <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/about">About</Nav.Link>
-        <Nav.Link href="/workbreak">Blog</Nav.Link>
+      <Nav defaultActiveKey="/home" className="footer-column">
+        <Col>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
+        </Col>
+        <Col>
+          <Nav.Link href="/workbreak/blogs">Work Break</Nav.Link>
+          <Nav.Link href="/homebreak/blogs">Home Break</Nav.Link>
+          <Nav.Link href="/playbreak/blogs">Play Break</Nav.Link>
+        </Col>
       </Nav>
     );
   }

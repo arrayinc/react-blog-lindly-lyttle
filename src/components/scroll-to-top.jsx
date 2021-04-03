@@ -29,7 +29,8 @@ function ScrollToTop() {
     >
       {isVisible && (
         <div onClick={scrollToTop}>
-          <ChevronDoubleUp />&nbsp;
+          <ChevronDoubleUp />
+          &nbsp;
           <b>To Top</b>
         </div>
       )}

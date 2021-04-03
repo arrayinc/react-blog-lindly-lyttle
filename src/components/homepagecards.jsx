@@ -15,8 +15,7 @@ export class HomepageCards extends Component {
               width: "10rem",
             }}
           >
-            <Card.Body className="work-card-body">
-            </Card.Body>
+            <Card.Body className="work-card-body"></Card.Body>
             <Link to="/workbreak/blogs">
               <Card.Footer className="card-footer">
                 Work Break <PauseFill />
@@ -26,8 +25,7 @@ export class HomepageCards extends Component {
           <br />
 
           <Card border="none" style={{ width: "10rem" }}>
-            <Card.Body className="home-card-body">
-            </Card.Body>
+            <Card.Body className="home-card-body"></Card.Body>
             <Link to="/homebreak/blogs">
               <Card.Footer className="card-footer">
                 Home Break <PauseFill />
@@ -37,8 +35,7 @@ export class HomepageCards extends Component {
           <br />
 
           <Card border="none" style={{ width: "10rem" }}>
-            <Card.Body className="play-card-body">
-            </Card.Body>
+            <Card.Body className="play-card-body"></Card.Body>
             <Link to="/playbreak/blogs">
               <Card.Footer className="card-footer">
                 Play Break <PlayFill />

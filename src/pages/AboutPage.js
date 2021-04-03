@@ -33,7 +33,7 @@ export default function AboutPage(props) {
           <span
           class="txt-rotate"
           data-period="2000"
-          data-rotate='[ "sunshine.", "learning.", "community.", "and coffee!" ]'></span>
+          data-rotate='[ "sunshine.", "learning.", "community.", "coffee!" ]'></span>
       </h1>
       <Container className="about-photo-container">
         <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />

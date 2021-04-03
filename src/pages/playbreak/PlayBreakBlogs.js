@@ -8,7 +8,7 @@ export default function PlayBreakPage(props) {
     <>
       <div>
         <Navbar className="playbreak-blogpage-nav" variant="light">
-          <Navbar.Brand className="playbreak-nav-title" href="#home">Play Break</Navbar.Brand>
+          <Navbar.Brand className="blog-nav-title" href="#home">Play Break</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link onClick={() => setBlogClicked(6)}>Art Therapy</Nav.Link>
             <Nav.Link onClick={() => setBlogClicked(7)}>Meditation</Nav.Link>

@@ -14,9 +14,17 @@ export class FooterNavbar extends Component {
         >
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <p className="copyright-text">© 2021 Break Inc.<br />Cookie Policy<br />Terms + Agreements</p>
-            <p className="copyright-text-2">Privacy Policy<br />Security</p>
-            <Nav className="footer-navbar-main-text">
+            <p className="copyright-text">
+              © 2021 Break Inc.
+              <br />
+              Cookie Policy
+            </p>
+            <p className="copyright-text">
+              Privacy Policy
+              <br />
+              Terms + Agreements
+            </p>
+            <Nav className="footer-navbar-icons">
               <Nav.Link href="/">
                 <Facebook />
               </Nav.Link>

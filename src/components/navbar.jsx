@@ -38,7 +38,7 @@ export class SiteNavbar extends Component {
             </li>
             <br />
             <li>
-              <a className="nav-right-text" href="#">
+              <a className="nav-right-text" href="">
                 <PersonCircle />
                 &nbsp;Login
               </a>
