@@ -22,19 +22,9 @@ code {
   margin-left: 1.5%;
 }
 
-.navbar-main-text {
-  color: black;
-}
-
 .navbar-right {
   margin-right: 2%;
   background-color: transparent !important;
-}
-
-.nav-right-text:hover {
-  color: rgba(0, 0, 0, 0.774) !important;
-  text-decoration: none !important;
-  text-decoration-color: none !important;
 }
 
 .nav-right-text {
@@ -43,20 +33,20 @@ code {
   text-decoration-color: none !important;
 }
 
-.footer {
+.nav-right-text:hover {
+  color: rgba(161, 161, 161, 0.5) !important;
+  text-decoration: none !important;
+  text-decoration-color: none !important;
+}
+
+.footer-column {
   position: sticky;
   margin-top: 3%;
+  margin-left: 2%;
+  max-width: 305px !important;
 }
 
-.scroll-to-top {
-  font-size: 0.75em;
-  font-family: Arial, Helvetica, sans-serif;
-  color: grey;
-  margin-left: 92%;
-  margin-bottom: 2%;
-}
-
-.footer-navbar-main-text {
+.footer-navbar-icons {
   margin-left: 70%;
   position: sticky;
   font-size: 1.5em;
@@ -64,7 +54,11 @@ code {
 
 a.nav-link {
   text-decoration: none !important;
-  color: rgba(0, 0, 0, 0.5)!important;
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+a.nav-link:hover {
+  color: rgba(161, 161, 161, 0.5) !important;
 }
 
 .copyright-text {
@@ -75,13 +69,12 @@ a.nav-link {
   line-height: 2em;
 }
 
-.copyright-text-2 {
-  font-size: 0.5em;
-  display: flex;
-  white-space: nowrap;
-  margin-left: 1%;
-  margin-bottom: 2.22%;
-  line-height: 2em;
+.scroll-to-top {
+  font-size: 0.75em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(161, 161, 161, 0.5);
+  margin-left: 92%;
+  margin-bottom: 2%;
 }
 /************************************************************************/
 
@@ -190,23 +183,13 @@ a.nav-link {
 }
 
 .card-footer:hover {
-  font-size: 200%;
+  font-size: 157%;
   color: rgb(197, 197, 197);
   transition: 0.5s;
 }
 
 a {
   text-decoration: rgba(255, 255, 255, 0.788) !important;
-}
-
-/************************************************************************/
-
-/* ALL Blog Home Pages */
-/* Work Break Home Page */
-.workbreak-morning-ritual-photo {
-  height: 500px;
-  margin-left: 25%;
-  margin-top: 2%;
 }
 /************************************************************************/
 
@@ -226,18 +209,18 @@ a {
   border: 4px solid rgb(71, 209, 179);
 }
 
+.blog-nav-title {
+  text-shadow: 0.1px 0.1px black !important;
+  background-color: none !important;
+  font-size: 1em !important;
+  margin-left: 35%;
+}
+
 .workbreak-blogpage-nav {
   margin-top: -5%;
   margin-bottom: 1% !important;
   font-size: 1em !important;
   background-color: rgb(185, 255, 240) !important;
-}
-
-.workbreak-nav-title {
-  text-shadow: 0.1px 0.1px black !important;
-  background-color: none !important;
-  font-size: 1em !important;
-  margin-left: 35%;
 }
 
 .homebreak-blogpage-nav {
@@ -247,25 +230,11 @@ a {
   background-color: rgb(252, 255, 210) !important;
 }
 
-.homebreak-nav-title {
-  text-shadow: 0.1px 0.1px black !important;
-  background-color: none !important;
-  font-size: 1em !important;
-  margin-left: 35%;
-}
-
 .playbreak-blogpage-nav {
   margin-top: -5%;
   margin-bottom: 1% !important;
   font-size: 1em !important;
-  background-color: rgb(174, 152, 253) !important;
-}
-
-.playbreak-nav-title {
-  text-shadow: 0.1px 0.1px black !important;
-  background-color: none !important;
-  font-size: 1em !important;
-  margin-left: 35%;
+  background-color: rgb(199, 183, 255) !important;
 }
 
 .blog-title {
@@ -404,19 +373,18 @@ a {
 }
 /************************************************************************/
 
-/************************************************************************/
-
 /* Contact Page */
 .contact-background {
   background-image: url("images/carousel/Blue.jpeg");
-  background-size: cover;
-  margin-top: -10%;
+  width: 100%;
+  margin-top: -7%;
 }
+
 .contact-form-title {
   text-align: center;
   font-size: 2em;
-  margin-top: 10%;
 }
+
 .form-group {
   margin-top: 2%;
   width: 60%;
@@ -446,32 +414,11 @@ a {
 }
 /************************************************************************/
 
-/* HomePage */
-/* Carousel */
-.card-icons {
-  align-self: center;
-  margin-top: 10%;
-  font-size: 5em;
-  color: grey;
-}
-
-.text-muted {
-  margin-left: 35%;
-}
-
-.card {
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-}
 /* About Page */
 .about-us-header {
   font-weight: 200;
   margin-left: 34%;
   margin-bottom: 3%;
-}
-
-.about-us-header {
   font-size: 3.5em;
 }
 
@@ -537,5 +484,4 @@ a {
   margin-right: 20%;
   margin-bottom: 10%;
 }
-
 /************************************************************************/

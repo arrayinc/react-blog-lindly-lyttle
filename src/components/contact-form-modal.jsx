@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Button, Modal } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Button, Modal } from "react-bootstrap";
 import { Heart, Mailbox, HandThumbsUp } from "react-bootstrap-icons";
 
 function ContactModal() {
@@ -9,7 +9,6 @@ function ContactModal() {
   const handleShow = () => setShow(true);
 
   return (
-  
     <>
       <Button variant="outline-secondary" onClick={() => handleShow()}>
         Send
@@ -17,9 +16,13 @@ function ContactModal() {
 
       <Modal show={show} onHide={() => handleClose()}>
         <Modal.Header closeButton>
-          <Modal.Title><Mailbox /> <Heart /></Modal.Title>
+          <Modal.Title>
+            <Mailbox /> <Heart />
+          </Modal.Title>
         </Modal.Header>
-        <Modal.Body>Signed, sealed, delivered. We will be in touch soon!</Modal.Body>
+        <Modal.Body>
+          Signed, sealed, delivered. We will be in touch soon!
+        </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             <HandThumbsUp />

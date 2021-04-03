@@ -1,15 +1,19 @@
+/** Work Break Blogs */
 import Morning from '../images/WorkBreakPage/blogpages/morning.jpg';
 import MorningCoffee from '../images/WorkBreakPage/blogpages/coffee.jpg';
 import WFH from '../images/WorkBreakPage/blogpages/wfh.jpg';
+/** Home Break Blogs */
 import Health from '../images/HomeBreakPage/health.jpg';
+import Holistic from '../images/HomeBreakPage/holistic.jpeg';
+import FiveSenses from '../images/HomeBreakPage/5senses.jpeg';
+/** Play Break Blogs */
+import ArtTherapy from '../images/PlayBreakPage/arttherapy.jpeg';
+import Mindfulness from '../images/PlayBreakPage/mindfulness-meditation.jpeg';
+import RageRoom from '../images/PlayBreakPage/rageroom.png';
+/** Avatar Photos */
 import AbbyPhoto from '../images/about/Abby4.jpeg';
 import MollyPhoto from '../images/about/Molly4.jpeg';
 import EmilyPhoto from '../images/about/EmilyHeadshot.jpeg';
-import ArtTherapy from '../images/PlayBreakPage/arttherapy.jpeg';
-import Mindfulness from '../images/PlayBreakPage/mindfulness-meditation.jpeg';
-import RageRoom from '../images/PlayBreakPage/rageroom.png'
-import FiveSenses from '../images/HomeBreakPage/5senses.jpeg';
-import Holistic from '../images/HomeBreakPage/holistic.jpeg';
 
 const BlogPageInfo = [
     {
@@ -43,7 +47,7 @@ const BlogPageInfo = [
         headerblocktwo: "I wake up early so I can do nothing, says Leslie Harris, a marketing executive in New York.",
         contentblocktwo: "Mornings can be stressful. Getting up late, skipping breakfast, and rushing out the door can leave you feeling miserable and unmotivated. A slow morning routine is about using your mornings in a way that makes you feel motivated, focused, and energised. It’s about slowing down to create a routine that puts you in a good mood and sets you up for a productive day.",
         headerblockthree: "Find what works best for YOU and is easiest to integrate into YOUR life.",
-        contentblockthree: "Some people meditate, plunge into cold water, slowly jump on trampolines or have no plan at all except for avoiding a rush. Slow-morning enthusiasts range from business leaders to artists to stay-at-home parents. They all say it’s a way to manage stress and find control in anxious, always-connected times.",       
+        contentblockthree: "Some people meditate, plunge into cold water, slowly jump on trampolines or have no plan at all except for avoiding a rush. Slow-morning enthusiasts range from business leaders to artists to stay-at-home parents. They all say it’s a way to manage stress and find control in anxious, always-connected times.",
     },
     {
 
@@ -72,7 +76,7 @@ const BlogPageInfo = [
         image: Health,
         photocredit: "Mukul Wadhwa | @mukulwadhwa",
         quote: "Just when you feel you have no time to relax, know that this is the moment you most need to make time to relax. ― Matt Haig",
-        introtext: "Repeat after me: A better world starts with the best version of me.  ",
+        introtext: "Repeat after me: A better world starts with the best version of me.",
         contentblockone: "Sounds a little self-centered, doesn’t it? Well, I want you to embrace that feeling for a moment. Let it settle into your body and make itself comfortable. Because I’m here to help you understand how focusing on your own health and wellness can lead to a better world. Self-care. Say it out loud.",
         headerblocktwo: "WHAT IS SELF-CARE?",
         contentblocktwo: "Self-care means asking yourself what you need and following through on the honest answer. Self-care can be as simple as getting to bed earlier on a work night, or as hard as taking a look at some of the habits you’ve created for yourself and their long-term effects. Self-care is essential. It’s human work we all need. Not just the activists among us, but every one of us who’s been paying attention for the last few years and watching our communities come apart. We all feel the weight of this time we’re living in, and we are all being called to do our part to ensure a more perfect Union.",
@@ -92,7 +96,7 @@ const BlogPageInfo = [
         introtext: "We’ve all heard of holistic health. Spirit, mind and body working together in harmony.",
         contentblockone: "If this is the case, why has society suggested we separate these routine experiences? In nutrition they tell us the 80/20 rule. In fitness we are shown unrealistic expectations through social media about a “typical” workout routine. In mental health we are bombarded with the self help approach.",
         headerblocktwo: "But what if we looked at holistic health from a different perspective?",
-        contentblocktwo: "What if holistic health meant, accepting where we are on the way to where we’re going? The fad diet roller coaster has become a societal norm. Instagram shows us the way my body should look. We are told, if we just did these habits for 60 days, our lives would change drastically. Our planners are full of trying to find balance in life. Check off all the things!  Drink plenty of water check, workout check, meditation check. Have you ever found yourself not fully experiencing the present moment due to restrictions? Human experience is more than restrictions. Don’t eat carbs. Hit the gym every day and do a little light reading in the evening to keep your mental health up. But what if we looked at holistic health as a way to fit into our lives rather than us fitting in all the things that we want to accomplish.", 
+        contentblocktwo: "What if holistic health meant, accepting where we are on the way to where we’re going? The fad diet roller coaster has become a societal norm. Instagram shows us the way my body should look. We are told, if we just did these habits for 60 days, our lives would change drastically. Our planners are full of trying to find balance in life. Check off all the things!  Drink plenty of water check, workout check, meditation check. Have you ever found yourself not fully experiencing the present moment due to restrictions? Human experience is more than restrictions. Don’t eat carbs. Hit the gym every day and do a little light reading in the evening to keep your mental health up. But what if we looked at holistic health as a way to fit into our lives rather than us fitting in all the things that we want to accomplish.",
         headerblockthree: "What I have found, in my own journey of holistic health is growth happens in our everyday experience, a little bit at a time.",
         contentblockthree: "Humans have been given an amazing opportunity to experience a beautiful life. The lives we have are a gift we were given. Shouldn’t holistic health be a part of the human experience? Rather than us trying to fit holistic health into our lives. Holistic health can be found in everyday experiences if we just allow ourselves to be present. Yes it is true that we are all given choices. The choice to fuel our bodies rather than eat. The choice to take a walk outside for exercise. What about stopping and appreciating our surroundings? Showing gratitude for all things in life we’ve already been given. As goal setting is a positive routine in our lives, the experiences we have on a daily basis define our outcomes. You might be asking yourself, Molly what are you getting at? The point is that society has expectations of us. Retail, advertising and corporations would rather we spend our time and energy planning to make a change in our lives rather than the human experience it takes to accomplish our goals. Accepting the core of who we are, and releasing the control of what society has planned for our lives, allows us to have the human experience we all crave. Holistic health happens in experience. Our mindset defines our experience. As spirit, mind and body work together in every encounter holistic health is elevated!",
     },
@@ -153,7 +157,6 @@ const BlogPageInfo = [
         contentblockfour: "Sara, who has been practicing mindfulness meditation for several years, describes her typical practice. 'I sit in an upright posture, usually on a cushion or bench on the floor, but sometimes in a chair when my knees or back are bothering me. I usually pay attention to the sensations of breathing in and out. (Sometimes I tune into sounds or body sensations, but mostly when I am sitting I notice my breath.) Whenever my attention wanders from my breathing to thoughts and feelings that pop up, I just acknowledge that those thoughts or feelings are present right now, and then gently return to my breath. Noticing the thoughts or feelings is actually a moment of mindfulness! This practice isn’t always easy—sometimes I get lost in my thoughts for a long time, but eventually I notice I am lost, and I go back to my breath.'",
     },
     {
-
         title: "Rage Rooms",
         subtitle: "Why recreational smashing could be good for your mental health.",
         author: "Abby Lyttle",

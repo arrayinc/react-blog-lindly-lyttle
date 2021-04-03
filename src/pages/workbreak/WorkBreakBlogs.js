@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Navbar, Nav, Row, Container, Badge, Image } from 'react-bootstrap';
-import { Facebook, Twitter, Instagram, Bookmark, ThreeDotsVertical, Calendar, PauseFill } from "react-bootstrap-icons";
+import { Facebook, Twitter, Instagram, Bookmark, ThreeDotsVertical, Calendar } from "react-bootstrap-icons";
 
 export default function WorkBreakPage(props) {
   const [blogClicked, setBlogClicked] = useState(0);
@@ -8,7 +8,7 @@ export default function WorkBreakPage(props) {
     <>
       <div>
         <Navbar className="workbreak-blogpage-nav" variant="light">
-          <Navbar.Brand className="workbreak-nav-title" href="#home">Work Break</Navbar.Brand>
+          <Navbar.Brand className="blog-nav-Ftitle" href="#home">Work Break</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link onClick={() => setBlogClicked(0)}>Morning Ritual</Nav.Link>
             <Nav.Link onClick={() => setBlogClicked(1)}>Meditation</Nav.Link>

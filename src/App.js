@@ -1,18 +1,17 @@
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Imported Components */
 import SiteNavbar from './components/navbar';
 import Footer from './components/footer';
 import FooterNavbar from './components/footernavbar';
 import ScrollToTop from './components/scroll-to-top';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 /* Imported Site Pages */
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import AuthorInfo from './pages/AuthorInfo';
 import ContactPage from './pages/ContactPage';
-// import WorkBreak from './pages/WorkBreakPage';
-// import HomeBreak from './pages/HomeBreakPage';
-// import PlayBreak from './pages/PlayBreakPage';
 import BlogPageInfo from './blogdata/BlogPageInfo';
 
 /* Imported Blog Pages */
@@ -55,5 +54,4 @@ function App() {
   );
 }
 export default App;
-
 
