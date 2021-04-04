@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Nav, Col } from "react-bootstrap";
 
+/* Footer Containing Links to Site Pages */
 export class Footer extends Component {
   render() {
     return (

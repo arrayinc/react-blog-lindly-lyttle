@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ChevronDoubleUp } from "react-bootstrap-icons";
 
+/* Scroll to Top Feature, Bottom Right of Page */
 function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
 

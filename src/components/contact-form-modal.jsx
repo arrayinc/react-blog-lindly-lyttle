@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
 import { Heart, Mailbox, HandThumbsUp } from "react-bootstrap-icons";
 
+/* Modal on Contact Page */
 function ContactModal() {
   const [show, setShow] = useState();
 

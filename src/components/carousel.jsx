@@ -4,6 +4,7 @@ import PhotoOne from "../images/carousel/Pink.jpeg";
 import PhotoTwo from "../images/carousel/Blue.jpeg";
 import PhotoThree from "../images/carousel/Orange.jpeg";
 
+/* Large Carousel on Homepage */
 export class CarouselPhotos extends Component {
   render() {
     return (

@@ -3,6 +3,7 @@ import { Card, CardDeck } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { PauseFill, PlayFill } from "react-bootstrap-icons";
 
+/* Cards on Homepage Containing Links to Each Blog */
 export class HomepageCards extends Component {
   render() {
     return (

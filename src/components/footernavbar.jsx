@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Facebook, Twitter, Instagram, Envelope } from "react-bootstrap-icons";
 
+/* Footer NavBar with Copyright Info + Social Media Icons (for display only) */
 export class FooterNavbar extends Component {
   render() {
     return (

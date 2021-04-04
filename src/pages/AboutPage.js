@@ -1,24 +1,19 @@
+/* Imported React and Hooks */
 import React, { useState, useEffect } from "react";
+/* Imported Components from Bootstrap */
 import { Row, Col, Image, Container, Navbar, Nav } from 'react-bootstrap';
-
-
+/* About Page Photos, Author Info, Page Navbar and Animated Text */
 export default function AboutPage(props) {
   const [authorClicked, setAuthorClicked] = useState(0);
-
-
 
   useEffect(() => {
     document.querySelectorAll('.author')[0].style.height = '';
     document.querySelectorAll('.author')[1].style.height = '';
     document.querySelectorAll('.author')[2].style.height = '';
     document.querySelectorAll('.author')[authorClicked].style.height = '200px'
-    // document.querySelectorAll('.author')[authorClicked].style.width ='275px'
   });
-
   return (
-
     <>
-      {/* <h1 className="rainbow rainbow_text_animated" id="about-us-header">About Us</h1> */}
       <div>
         <Navbar className="about-nav" variant="light">
           <Navbar.Brand className="about-nav-title" href="#home">About Us</Navbar.Brand>
@@ -37,7 +32,6 @@ export default function AboutPage(props) {
       </h1>
       <Container className="about-photo-container">
         <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
-
         <Row>
           <Col>
             <Image className="author" id="fadein" src={props.AuthorInfo[0].photo} roundedCircle onClick={() => setAuthorClicked(0)} />
@@ -60,10 +54,10 @@ export default function AboutPage(props) {
         </Row>
       </Container>
     </>
-
   );
 }
 
+/* Animated Text Feature */
 let TxtRotate = function (el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -74,20 +68,18 @@ let TxtRotate = function (el, toRotate, period) {
   this.isDeleting = false;
 };
 
+/* Delete Length of Each Word */
 TxtRotate.prototype.tick = function () {
-  var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
-
+  let i = this.loopNum % this.toRotate.length;
+  let fullTxt = this.toRotate[i];
   if (this.isDeleting) {
     this.txt = fullTxt.substring(0, this.txt.length - 1);
   } else {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
   }
-
   this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-  var that = this;
-  var delta = 300 - Math.random() * 100;
+  let that = this;
+  let delta = 300 - Math.random() * 100;
 
   if (this.isDeleting) { delta /= 2; }
 
@@ -99,22 +91,23 @@ TxtRotate.prototype.tick = function () {
     this.loopNum++;
     delta = 500;
   }
-
   setTimeout(function () {
     that.tick();
   }, delta);
 };
 
+/* Inject and Rotate Text */
 window.onload = function () {
-  var elements = document.getElementsByClassName('txt-rotate');
-  for (var i = 0; i < elements.length; i++) {
-    var toRotate = elements[i].getAttribute('data-rotate');
-    var period = elements[i].getAttribute('data-period');
+  let elements = document.getElementsByClassName('txt-rotate');
+  for (let i = 0; i < elements.length; i++) {
+    let toRotate = elements[i].getAttribute('data-rotate');
+    let period = elements[i].getAttribute('data-period');
     if (toRotate) {
       new TxtRotate(elements[i], JSON.parse(toRotate), period);
     }
   }
-  // INJECT CSS
+
+  /* Inject CSS */
   let css = document.createElement("style");
   css.type = "text/css";
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
