@@ -1,7 +1,11 @@
+/* Imported React and Hook */
 import React, { useState } from "react";
+/* Imported Components from Bootstrap */
 import { Navbar, Nav, Row, Container, Badge, Image } from 'react-bootstrap';
+/* Imported Icons from Bootstrap */
 import { Facebook, Twitter, Instagram, Bookmark, ThreeDotsVertical, Calendar } from "react-bootstrap-icons";
 
+/* Playbreak Homepage Containing All Blogs */
 export default function PlayBreakPage(props) {
   const [blogClicked, setBlogClicked] = useState(6);
   return (
@@ -16,7 +20,6 @@ export default function PlayBreakPage(props) {
           </Nav>
         </Navbar>
       </div>
-
       <Container className="blog-container">
         <Row>
           <div className="blog-button-one" onClick={() => setBlogClicked(6)}></div>

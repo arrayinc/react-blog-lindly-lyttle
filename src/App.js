@@ -1,5 +1,9 @@
+/* Imported CSS Page */
 import './index.css';
+/* Imported Usage of Bootstrap to App */
 import 'bootstrap/dist/css/bootstrap.min.css';
+/* Imported Router Behavior */
+import { Switch, Route } from 'react-router-dom';
 
 /* Imported Components */
 import SiteNavbar from './components/navbar';
@@ -15,11 +19,11 @@ import ContactPage from './pages/ContactPage';
 import BlogPageInfo from './blogdata/BlogPageInfo';
 
 /* Imported Blog Pages */
-import { Switch, Route } from 'react-router-dom';
 import WorkBreakBlogs from './pages/workbreak/WorkBreakBlogs';
 import HomeBreakBlogs from './pages/homebreak/HomeBreakBlogs';
 import PlayBreakBlogs from './pages/playbreak/PlayBreakBlogs';
 
+/* App Component: Container For All Other Components */
 function App() {
   return (
     <div className="App">

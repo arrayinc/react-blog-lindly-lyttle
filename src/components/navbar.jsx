@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Navbar, Nav, NavDropdown, Form } from "react-bootstrap";
 import { PauseCircle, PersonCircle } from "react-bootstrap-icons";
 
+/* Header Site Navbar */
 export class SiteNavbar extends Component {
   render() {
     return (

@@ -1,7 +1,9 @@
+/* Imported Author Photos for About Page */
 import emily from '../images/about/EmilyHeadshot.jpeg'
 import abby from '../images/about/Abby4.jpeg'
 import molly from '../images/about/Molly4.jpeg'
 
+/* Author Info that Changes on Click: Names and Bios */
 const AuthorInfo = [
     {
         name: "Emily Lindly",
